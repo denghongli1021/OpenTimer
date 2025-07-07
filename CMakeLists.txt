@@ -228,6 +228,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/example/simple)
 add_executable(simple example/simple/simple.cpp)
 target_link_libraries(simple ${OT_LINK_FLAGS})
 
+# fcpc26
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/example/fcpc26)
+add_executable(fcpc26 example/fcpc26/fcpc26.cpp)
+target_link_libraries(fcpc26 ${OT_LINK_FLAGS})
+
 # incremental
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/example/incremental)
 add_executable(incremental example/incremental/incremental.cpp)

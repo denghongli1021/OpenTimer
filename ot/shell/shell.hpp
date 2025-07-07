@@ -97,6 +97,7 @@ class Shell {
     void _dump_verilog           ();
     void _dump_spef              ();
     void _dump_rctree            ();
+    void _dump_fcpc26            ();
     
     // Obselete
     void _exec_ops               ();
@@ -176,6 +177,7 @@ class Shell {
       {"dump_verilog",            &Shell::_dump_verilog},
       {"dump_spef",               &Shell::_dump_spef},
       {"dump_rctree",             &Shell::_dump_rctree},
+      {"dump_fcpc26",             &Shell::_dump_fcpc26},
 
       // obselete
       {"exec_ops",                &Shell::_exec_ops},
