@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O2 CMakeFiles/fcpc26.dir/example/fcpc26/fcpc26.cpp.o -o /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/example/fcpc26/fcpc26  /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/lib/libOpenTimer.a 

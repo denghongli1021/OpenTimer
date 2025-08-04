@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O2 "CMakeFiles/ot-tau18.dir/main/tau18/tau18.cpp.o" -o /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau18  /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/lib/libOpenTimer.a 

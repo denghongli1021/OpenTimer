@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O2 CMakeFiles/optimizer.dir/example/optimizer/optimizer.cpp.o -o /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/example/optimizer/optimizer  /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/lib/libOpenTimer.a 

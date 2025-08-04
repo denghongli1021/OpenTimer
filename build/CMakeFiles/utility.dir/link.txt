@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O2 CMakeFiles/utility.dir/unittest/utility.cpp.o -o /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility  /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/lib/libOpenTimer.a 

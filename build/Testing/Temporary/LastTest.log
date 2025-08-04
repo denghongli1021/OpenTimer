@@ -1,0 +1,2915 @@
+Start testing: Aug 05 00:15 CST
+----------------------------------------------------------
+1/64 Testing: ut.utility
+1/64 Test: ut.utility
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility" "-d" "yes"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"ut.utility" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.7"
+[doctest] run with "--help" for options
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility.cpp:7:
+TEST CASE:  Tokenizer.IsWord
+
+0.000191 s: Tokenizer.IsWord
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility.cpp:17:
+TEST CASE:  Tokenizer.IsArray
+
+0.000317 s: Tokenizer.IsArray
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility.cpp:30:
+TEST CASE:  Tokenizer.IsNumeric
+
+0.000408 s: Tokenizer.IsNumeric
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility.cpp:49:
+TEST CASE:  Tokenizer.Quote
+
+0.000002 s: Tokenizer.Quote
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility.cpp:74:
+TEST CASE:  Tokenizer.Brace
+
+0.000002 s: Tokenizer.Brace
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/utility.cpp:103:
+TEST CASE:  Tokenizer.Bracket
+
+0.000002 s: Tokenizer.Bracket
+===============================================================================
+[doctest] test cases:  6 |  6 passed | 0 failed | 0 skipped
+[doctest] assertions: 47 | 47 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ut.utility" end time: Aug 05 00:15 CST
+"ut.utility" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/64 Testing: ut.path
+2/64 Test: ut.path
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/path" "-d" "yes"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"ut.path" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.7"
+[doctest] run with "--help" for options
+===============================================================================
+/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/unittest/path.cpp:20:
+TEST CASE:  PathHeap
+
+DEEPEST SUBCASE STACK REACHED (DIFFERENT FROM THE CURRENT ONE):
+  Merge-and-Fit
+
+0.000134 s: PathHeap
+===============================================================================
+[doctest] test cases:   1 |   1 passed | 0 failed | 0 skipped
+[doctest] assertions: 454 | 454 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ut.path" end time: Aug 05 00:15 CST
+"ut.path" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/64 Testing: it.tau15.c3_slack
+3/64 Test: it.tau15.c3_slack
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c3_slack"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c3_slack" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I  9920 25-08-05 00:15:09 spef.cpp:15] loading spef "change_4.spef"
+I 14016 25-08-05 00:15:09 celllib.cpp:34] loading celllib "c3_slack_Early.lib"
+I 26304 25-08-05 00:15:09 spef.cpp:15] loading spef "change_5.spef"
+I 34496 25-08-05 00:15:09 spef.cpp:15] loading spef "c3_slack.spef"
+I 18112 25-08-05 00:15:09 celllib.cpp:34] loading celllib "c3_slack_Late.lib"
+I 22208 25-08-05 00:15:09 verilog.cpp:14] loading netlist "c3_slack.v"
+I 38592 25-08-05 00:15:09 tau15.cpp:76] loading timing "c3_slack.timing" ...
+I 30400 25-08-05 00:15:09 spef.cpp:15] loading spef "change_6.spef"
+I 38592 25-08-05 00:15:09 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:09 spef.cpp:15] loading spef "change_2.spef"
+I 30400 25-08-05 00:15:09 spef.cpp:15] loading spef "change_3.spef"
+I 26304 25-08-05 00:15:09 spef.cpp:15] loading spef "change_7.spef"
+I 14016 25-08-05 00:15:09 unit.cpp:244] use celllib time unit 1e-12 s
+I 14016 25-08-05 00:15:09 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 14016 25-08-05 00:15:09 unit.cpp:272] use celllib current unit 0.001 A
+I 14016 25-08-05 00:15:09 unit.cpp:286] use celllib voltage unit 1 V
+I 14016 25-08-05 00:15:09 unit.cpp:314] use celllib power unit 1e-06 W
+I 14016 25-08-05 00:15:09 celllib.cpp:66] added min celllib "tau2015_c3_slack_Early" [cells:105]
+I 18112 25-08-05 00:15:09 celllib.cpp:66] added max celllib "tau2015_c3_slack_Late" [cells:105]
+I 18112 25-08-05 00:15:09 verilog.cpp:21] added verilog module "c3_slack" [gates:3]
+I 18112 25-08-05 00:15:09 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 7 spef nets
+I 18112 25-08-05 00:15:09 tau15.cpp:81] add 14 timing assertions
+I 18112 25-08-05 00:15:09 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 30 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 60 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 5 spef nets
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c3_slack" end time: Aug 05 00:15 CST
+"it.tau15.c3_slack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/64 Testing: it.tau15.c3_path
+4/64 Test: it.tau15.c3_path
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c3_path"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c3_path" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 22208 25-08-05 00:15:09 celllib.cpp:34] loading celllib "c3_path_Late.lib"
+I 14016 25-08-05 00:15:09 spef.cpp:15] loading spef "change_1.spef"
+I 18112 25-08-05 00:15:09 celllib.cpp:34] loading celllib "c3_path_Early.lib"
+I 30400 25-08-05 00:15:09 verilog.cpp:14] loading netlist "c3_path.v"
+I 26304 25-08-05 00:15:09 spef.cpp:15] loading spef "c3_path.spef"
+I 34496 25-08-05 00:15:09 tau15.cpp:76] loading timing "c3_path.timing" ...
+I 18112 25-08-05 00:15:09 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:15:09 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:15:09 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:15:09 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:15:09 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:15:09 celllib.cpp:66] added min celllib "tau2015_c3_path_Early" [cells:105]
+I 18112 25-08-05 00:15:09 celllib.cpp:66] added max celllib "tau2015_c3_path_Late" [cells:105]
+I 18112 25-08-05 00:15:09 verilog.cpp:21] added verilog module "c3_path" [gates:3]
+I 18112 25-08-05 00:15:09 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 7 spef nets
+I 18112 25-08-05 00:15:09 tau15.cpp:81] add 14 timing assertions
+I 18112 25-08-05 00:15:09 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 2 spef nets
+I 26304 25-08-05 00:15:09 spef.cpp:15] loading spef "change_2.spef"
+I 26304 25-08-05 00:15:09 spef.cpp:27] added 6 spef nets
+I 22208 25-08-05 00:15:09 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:09 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:15] loading spef "change_4.spef"
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 30 spef nets
+I 22208 25-08-05 00:15:09 spef.cpp:15] loading spef "change_5.spef"
+I 22208 25-08-05 00:15:09 spef.cpp:27] added 60 spef nets
+I 18112 25-08-05 00:15:09 spef.cpp:15] loading spef "change_6.spef"
+I 18112 25-08-05 00:15:09 spef.cpp:27] added 5 spef nets
+I 26304 25-08-05 00:15:09 spef.cpp:15] loading spef "change_7.spef"
+I 26304 25-08-05 00:15:09 spef.cpp:27] added 5 spef nets
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c3_path" end time: Aug 05 00:15 CST
+"it.tau15.c3_path" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/64 Testing: it.tau15.c17
+5/64 Test: it.tau15.c17
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c17"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c17" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 46784 25-08-05 00:15:09 celllib.cpp:34] loading celllib "c17_Late.lib"
+I 54976 25-08-05 00:15:09 spef.cpp:15] loading spef "c17.spef"
+I 59072 25-08-05 00:15:09 verilog.cpp:14] loading netlist "c17.v"
+I 50880 25-08-05 00:15:09 tau15.cpp:76] loading timing "c17.timing" ...
+I 42688 25-08-05 00:15:09 celllib.cpp:34] loading celllib "c17_Early.lib"
+I 42688 25-08-05 00:15:09 unit.cpp:244] use celllib time unit 1e-12 s
+I 42688 25-08-05 00:15:09 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 42688 25-08-05 00:15:09 unit.cpp:272] use celllib current unit 0.001 A
+I 42688 25-08-05 00:15:09 unit.cpp:286] use celllib voltage unit 1 V
+I 42688 25-08-05 00:15:09 unit.cpp:314] use celllib power unit 1e-06 W
+I 42688 25-08-05 00:15:09 celllib.cpp:66] added min celllib "tau2015_c17_Early" [cells:105]
+I 42688 25-08-05 00:15:09 celllib.cpp:66] added max celllib "tau2015_c17_Late" [cells:105]
+I 42688 25-08-05 00:15:09 verilog.cpp:21] added verilog module "c17" [gates:6]
+I 42688 25-08-05 00:15:09 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 42688 25-08-05 00:15:09 spef.cpp:27] added 11 spef nets
+I 42688 25-08-05 00:15:09 tau15.cpp:81] add 14 timing assertions
+I 42688 25-08-05 00:15:09 timer.cpp:484] enable cppr analysis
+I  5824 25-08-05 00:15:09 spef.cpp:15] loading spef "change_1.spef"
+I  5824 25-08-05 00:15:09 spef.cpp:27] added 2 spef nets
+I  1728 25-08-05 00:15:09 spef.cpp:15] loading spef "change_2.spef"
+I  1728 25-08-05 00:15:09 spef.cpp:27] added 6 spef nets
+I 42688 25-08-05 00:15:09 spef.cpp:15] loading spef "change_3.spef"
+I 42688 25-08-05 00:15:09 spef.cpp:27] added 10 spef nets
+I 63168 25-08-05 00:15:09 spef.cpp:15] loading spef "change_4.spef"
+I 63168 25-08-05 00:15:09 spef.cpp:27] added 38 spef nets
+I 63168 25-08-05 00:15:09 spef.cpp:15] loading spef "change_5.spef"
+I 63168 25-08-05 00:15:09 spef.cpp:27] added 76 spef nets
+I 63168 25-08-05 00:15:09 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:09 spef.cpp:27] added 5 spef nets
+I  5824 25-08-05 00:15:09 spef.cpp:15] loading spef "change_7.spef"
+I  5824 25-08-05 00:15:09 spef.cpp:27] added 11 spef nets
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c17" end time: Aug 05 00:15 CST
+"it.tau15.c17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/64 Testing: it.tau15.c17_slack
+6/64 Test: it.tau15.c17_slack
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c17_slack"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c17_slack" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I  9920 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "c17_slack.spef"
+I 14016 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c17_slack_Early.lib"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I 34496 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c17_slack_Late.lib"
+I 30400 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c17_slack.v"
+I 18112 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:15:10 tau15.cpp:76] loading timing "c17_slack.timing" ...
+I  9920 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 14016 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I 22208 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I 22208 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 22208 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I 22208 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I 22208 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I 22208 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c17_slack_Early" [cells:105]
+I 22208 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c17_slack_Late" [cells:105]
+I 22208 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c17_slack" [gates:6]
+I 22208 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 11 spef nets
+I 22208 25-08-05 00:15:10 tau15.cpp:81] add 14 timing assertions
+I 22208 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 38 spef nets
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 76 spef nets
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I 22208 25-08-05 00:15:10 spef.cpp:27] added 11 spef nets
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c17_slack" end time: Aug 05 00:15 CST
+"it.tau15.c17_slack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/64 Testing: it.tau15.c432
+7/64 Test: it.tau15.c432
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c432"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c432" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 22208 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I 46784 25-08-05 00:15:10 tau15.cpp:76] loading timing "c432.timing" ...
+I 30400 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c432_Late.lib"
+I 34496 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c432.v"
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "c432.spef"
+I 42688 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I 18112 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c432_Early.lib"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I 46784 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 22208 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I 42688 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I 18112 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c432_Early" [cells:105]
+I 18112 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c432_Late" [cells:105]
+I 18112 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c432" [gates:134]
+I 18112 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 170 spef nets
+I 18112 25-08-05 00:15:10 tau15.cpp:81] add 86 timing assertions
+I 18112 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 456 spef nets
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:10 spef.cpp:27] added 141 spef nets
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c432" end time: Aug 05 00:15 CST
+"it.tau15.c432" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/64 Testing: it.tau15.c499
+8/64 Test: it.tau15.c499
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c499"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c499" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 34496 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I 46784 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c499_Early.lib"
+I 50880 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 54976 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c499_Late.lib"
+I 59072 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c499.v"
+I 42688 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I 34496 25-08-05 00:15:10 spef.cpp:15] loading spef "c499.spef"
+I 38592 25-08-05 00:15:10 tau15.cpp:76] loading timing "c499.timing" ...
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 50880 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I 46784 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I 46784 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 46784 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I 46784 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I 46784 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I 46784 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c499_Early" [cells:105]
+I 46784 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c499_Late" [cells:105]
+I 46784 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c499" [gates:176]
+I 46784 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 217 spef nets
+I 46784 25-08-05 00:15:10 tau15.cpp:81] add 146 timing assertions
+I 46784 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 100 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 550 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 206 spef nets
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c499" end time: Aug 05 00:15 CST
+"it.tau15.c499" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/64 Testing: it.tau15.c880
+9/64 Test: it.tau15.c880
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c880"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c880" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I 22208 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I  1728 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c880_Early.lib"
+I  5824 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c880.v"
+I 18112 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I  9920 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c880_Late.lib"
+I 22208 25-08-05 00:15:10 spef.cpp:15] loading spef "c880.spef"
+I 63168 25-08-05 00:15:10 tau15.cpp:76] loading timing "c880.timing" ...
+I  5824 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I  1728 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I  1728 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  1728 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I  1728 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I  1728 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I  1728 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c880_Early" [cells:105]
+I  1728 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c880_Late" [cells:105]
+I  1728 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c880" [gates:221]
+I  1728 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 281 spef nets
+I  1728 25-08-05 00:15:10 tau15.cpp:81] add 172 timing assertions
+I  1728 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 100 spef nets
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 678 spef nets
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I  1728 25-08-05 00:15:10 spef.cpp:27] added 265 spef nets
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c880" end time: Aug 05 00:15 CST
+"it.tau15.c880" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/64 Testing: it.tau15.c1355
+10/64 Test: it.tau15.c1355
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c1355"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c1355" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 59072 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c1355_Early.lib"
+I 18112 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c1355.v"
+I  5824 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c1355_Late.lib"
+I  9920 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I 14016 25-08-05 00:15:10 spef.cpp:15] loading spef "c1355.spef"
+I  1728 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 22208 25-08-05 00:15:10 tau15.cpp:76] loading timing "c1355.timing" ...
+I 22208 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I  9920 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I  1728 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I 59072 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I 59072 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 59072 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I 59072 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I 59072 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I 59072 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c1355_Early" [cells:105]
+I 59072 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c1355_Late" [cells:105]
+I 59072 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c1355" [gates:180]
+I 59072 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 221 spef nets
+I 59072 25-08-05 00:15:10 tau15.cpp:81] add 146 timing assertions
+I 59072 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 100 spef nets
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 558 spef nets
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I 59072 25-08-05 00:15:10 spef.cpp:27] added 213 spef nets
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c1355" end time: Aug 05 00:15 CST
+"it.tau15.c1355" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/64 Testing: it.tau15.c1908
+11/64 Test: it.tau15.c1908
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c1908"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c1908" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I 42688 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c1908_Early.lib"
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 46784 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c1908_Late.lib"
+I 50880 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c1908.v"
+I 54976 25-08-05 00:15:10 spef.cpp:15] loading spef "c1908.spef"
+I 59072 25-08-05 00:15:10 tau15.cpp:76] loading timing "c1908.timing" ...
+I  1728 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I 59072 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 63168 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I  1728 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I 42688 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I 42688 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 42688 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I 42688 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I 42688 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I 42688 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c1908_Early" [cells:105]
+I 46784 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c1908_Late" [cells:105]
+I 46784 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c1908" [gates:222]
+I 46784 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 255 spef nets
+I 46784 25-08-05 00:15:10 tau15.cpp:81] add 116 timing assertions
+I 46784 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 100 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 626 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I 46784 25-08-05 00:15:10 spef.cpp:27] added 234 spef nets
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c1908" end time: Aug 05 00:15 CST
+"it.tau15.c1908" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/64 Testing: it.tau15.c2670
+12/64 Test: it.tau15.c2670
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c2670"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c2670" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 18112 25-08-05 00:15:10 spef.cpp:15] loading spef "change_5.spef"
+I 22208 25-08-05 00:15:10 spef.cpp:15] loading spef "change_3.spef"
+I 14016 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c2670_Early.lib"
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_6.spef"
+I 34496 25-08-05 00:15:10 spef.cpp:15] loading spef "change_4.spef"
+I 30400 25-08-05 00:15:10 celllib.cpp:34] loading celllib "c2670_Late.lib"
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "change_7.spef"
+I 42688 25-08-05 00:15:10 verilog.cpp:14] loading netlist "c2670.v"
+I 34496 25-08-05 00:15:10 spef.cpp:15] loading spef "c2670.spef"
+I 22208 25-08-05 00:15:10 tau15.cpp:76] loading timing "c2670.timing" ...
+I 26304 25-08-05 00:15:10 spef.cpp:15] loading spef "change_1.spef"
+I 38592 25-08-05 00:15:10 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:10 unit.cpp:244] use celllib time unit 1e-12 s
+I 14016 25-08-05 00:15:10 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 14016 25-08-05 00:15:10 unit.cpp:272] use celllib current unit 0.001 A
+I 14016 25-08-05 00:15:10 unit.cpp:286] use celllib voltage unit 1 V
+I 14016 25-08-05 00:15:10 unit.cpp:314] use celllib power unit 1e-06 W
+I 14016 25-08-05 00:15:10 celllib.cpp:66] added min celllib "tau2015_c2670_Early" [cells:105]
+I 30400 25-08-05 00:15:10 celllib.cpp:66] added max celllib "tau2015_c2670_Late" [cells:105]
+I 30400 25-08-05 00:15:10 verilog.cpp:21] added verilog module "c2670" [gates:344]
+I 30400 25-08-05 00:15:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 501 spef nets
+I 30400 25-08-05 00:15:10 tau15.cpp:81] add 440 timing assertions
+I 30400 25-08-05 00:15:10 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 2 spef nets
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 6 spef nets
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 100 spef nets
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 1118 spef nets
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:15:10 spef.cpp:27] added 373 spef nets
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c2670" end time: Aug 05 00:15 CST
+"it.tau15.c2670" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/64 Testing: it.tau15.c3540
+13/64 Test: it.tau15.c3540
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c3540"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c3540" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 38592 25-08-05 00:15:11 spef.cpp:15] loading spef "change_4.spef"
+I 63168 25-08-05 00:15:11 tau15.cpp:76] loading timing "c3540.timing" ...
+I 42688 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c3540_Late.lib"
+I 46784 25-08-05 00:15:11 verilog.cpp:14] loading netlist "c3540.v"
+I 50880 25-08-05 00:15:11 spef.cpp:15] loading spef "change_5.spef"
+I 54976 25-08-05 00:15:11 spef.cpp:15] loading spef "c3540.spef"
+I 59072 25-08-05 00:15:11 spef.cpp:15] loading spef "change_6.spef"
+I 34496 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c3540_Early.lib"
+I 63168 25-08-05 00:15:11 spef.cpp:15] loading spef "change_1.spef"
+I 38592 25-08-05 00:15:11 spef.cpp:15] loading spef "change_2.spef"
+I 59072 25-08-05 00:15:11 spef.cpp:15] loading spef "change_3.spef"
+I 63168 25-08-05 00:15:11 spef.cpp:15] loading spef "change_7.spef"
+I 34496 25-08-05 00:15:11 unit.cpp:244] use celllib time unit 1e-12 s
+I 34496 25-08-05 00:15:11 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 34496 25-08-05 00:15:11 unit.cpp:272] use celllib current unit 0.001 A
+I 34496 25-08-05 00:15:11 unit.cpp:286] use celllib voltage unit 1 V
+I 34496 25-08-05 00:15:11 unit.cpp:314] use celllib power unit 1e-06 W
+I 34496 25-08-05 00:15:11 celllib.cpp:66] added min celllib "tau2015_c3540_Early" [cells:105]
+I 34496 25-08-05 00:15:11 celllib.cpp:66] added max celllib "tau2015_c3540_Late" [cells:105]
+I 34496 25-08-05 00:15:11 verilog.cpp:21] added verilog module "c3540" [gates:691]
+I 34496 25-08-05 00:15:11 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 741 spef nets
+I 34496 25-08-05 00:15:11 tau15.cpp:81] add 144 timing assertions
+I 34496 25-08-05 00:15:11 timer.cpp:484] enable cppr analysis
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 2 spef nets
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 6 spef nets
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 10 spef nets
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 100 spef nets
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 1598 spef nets
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 5 spef nets
+I 34496 25-08-05 00:15:11 spef.cpp:27] added 444 spef nets
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c3540" end time: Aug 05 00:15 CST
+"it.tau15.c3540" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/64 Testing: it.tau15.c5315
+14/64 Test: it.tau15.c5315
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c5315"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c5315" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 14016 25-08-05 00:15:11 spef.cpp:15] loading spef "change_5.spef"
+I 34496 25-08-05 00:15:11 spef.cpp:15] loading spef "change_6.spef"
+I 18112 25-08-05 00:15:11 spef.cpp:15] loading spef "change_4.spef"
+I  9920 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c5315_Early.lib"
+I 26304 25-08-05 00:15:11 verilog.cpp:14] loading netlist "c5315.v"
+I 30400 25-08-05 00:15:11 spef.cpp:15] loading spef "c5315.spef"
+I 38592 25-08-05 00:15:11 tau15.cpp:76] loading timing "c5315.timing" ...
+I 22208 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c5315_Late.lib"
+I 38592 25-08-05 00:15:11 spef.cpp:15] loading spef "change_1.spef"
+I 18112 25-08-05 00:15:11 spef.cpp:15] loading spef "change_7.spef"
+I 34496 25-08-05 00:15:11 spef.cpp:15] loading spef "change_2.spef"
+I 38592 25-08-05 00:15:11 spef.cpp:15] loading spef "change_3.spef"
+I  9920 25-08-05 00:15:11 unit.cpp:244] use celllib time unit 1e-12 s
+I  9920 25-08-05 00:15:11 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  9920 25-08-05 00:15:11 unit.cpp:272] use celllib current unit 0.001 A
+I  9920 25-08-05 00:15:11 unit.cpp:286] use celllib voltage unit 1 V
+I  9920 25-08-05 00:15:11 unit.cpp:314] use celllib power unit 1e-06 W
+I  9920 25-08-05 00:15:11 celllib.cpp:66] added min celllib "tau2015_c5315_Early" [cells:105]
+I 22208 25-08-05 00:15:11 celllib.cpp:66] added max celllib "tau2015_c5315_Late" [cells:105]
+I 22208 25-08-05 00:15:11 verilog.cpp:21] added verilog module "c5315" [gates:918]
+I 22208 25-08-05 00:15:11 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 1096 spef nets
+I 22208 25-08-05 00:15:11 tau15.cpp:81] add 602 timing assertions
+I 22208 25-08-05 00:15:11 timer.cpp:484] enable cppr analysis
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 2 spef nets
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 6 spef nets
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 10 spef nets
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 100 spef nets
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 2308 spef nets
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 5 spef nets
+I 22208 25-08-05 00:15:11 spef.cpp:27] added 452 spef nets
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c5315" end time: Aug 05 00:15 CST
+"it.tau15.c5315" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/64 Testing: it.tau15.c6288
+15/64 Test: it.tau15.c6288
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c6288"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c6288" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 54976 25-08-05 00:15:11 spef.cpp:15] loading spef "change_4.spef"
+I 50880 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c6288_Early.lib"
+I 46784 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c6288_Late.lib"
+I 59072 25-08-05 00:15:11 spef.cpp:15] loading spef "change_5.spef"
+I 63168 25-08-05 00:15:11 verilog.cpp:14] loading netlist "c6288.v"
+I  1728 25-08-05 00:15:11 spef.cpp:15] loading spef "change_7.spef"
+I  5824 25-08-05 00:15:11 spef.cpp:15] loading spef "c6288.spef"
+I  9920 25-08-05 00:15:11 tau15.cpp:76] loading timing "c6288.timing" ...
+I  9920 25-08-05 00:15:11 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:15:11 spef.cpp:15] loading spef "change_2.spef"
+I  9920 25-08-05 00:15:11 spef.cpp:15] loading spef "change_3.spef"
+I  1728 25-08-05 00:15:11 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:15:11 unit.cpp:244] use celllib time unit 1e-12 s
+I 50880 25-08-05 00:15:11 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 50880 25-08-05 00:15:11 unit.cpp:272] use celllib current unit 0.001 A
+I 50880 25-08-05 00:15:11 unit.cpp:286] use celllib voltage unit 1 V
+I 50880 25-08-05 00:15:11 unit.cpp:314] use celllib power unit 1e-06 W
+I 50880 25-08-05 00:15:11 celllib.cpp:66] added min celllib "tau2015_c6288_Early" [cells:105]
+I 50880 25-08-05 00:15:11 celllib.cpp:66] added max celllib "tau2015_c6288_Late" [cells:105]
+I 50880 25-08-05 00:15:11 verilog.cpp:21] added verilog module "c6288" [gates:1667]
+I 50880 25-08-05 00:15:11 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 1699 spef nets
+I 50880 25-08-05 00:15:11 tau15.cpp:81] add 128 timing assertions
+I 50880 25-08-05 00:15:11 timer.cpp:484] enable cppr analysis
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 6 spef nets
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 100 spef nets
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 3514 spef nets
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 5 spef nets
+I 50880 25-08-05 00:15:11 spef.cpp:27] added 467 spef nets
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c6288" end time: Aug 05 00:15 CST
+"it.tau15.c6288" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/64 Testing: it.tau15.c7552
+16/64 Test: it.tau15.c7552
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c7552"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c7552" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 18112 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c7552_Early.lib"
+I 46784 25-08-05 00:15:11 spef.cpp:15] loading spef "change_7.spef"
+I 22208 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c7552_Late.lib"
+I 26304 25-08-05 00:15:11 spef.cpp:15] loading spef "change_4.spef"
+I 30400 25-08-05 00:15:11 spef.cpp:15] loading spef "change_5.spef"
+I 34496 25-08-05 00:15:11 spef.cpp:15] loading spef "change_6.spef"
+I 38592 25-08-05 00:15:11 verilog.cpp:14] loading netlist "c7552.v"
+I 42688 25-08-05 00:15:11 spef.cpp:15] loading spef "c7552.spef"
+I 34496 25-08-05 00:15:11 tau15.cpp:76] loading timing "c7552.timing" ...
+I 26304 25-08-05 00:15:11 spef.cpp:15] loading spef "change_1.spef"
+I 46784 25-08-05 00:15:11 spef.cpp:15] loading spef "change_2.spef"
+I 34496 25-08-05 00:15:11 spef.cpp:15] loading spef "change_3.spef"
+I 18112 25-08-05 00:15:11 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:15:11 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:15:11 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:15:11 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:15:11 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:15:11 celllib.cpp:66] added min celllib "tau2015_c7552_Early" [cells:105]
+I 18112 25-08-05 00:15:11 celllib.cpp:66] added max celllib "tau2015_c7552_Late" [cells:105]
+I 18112 25-08-05 00:15:11 verilog.cpp:21] added verilog module "c7552" [gates:1147]
+I 18112 25-08-05 00:15:11 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 1353 spef nets
+I 18112 25-08-05 00:15:11 tau15.cpp:81] add 626 timing assertions
+I 18112 25-08-05 00:15:11 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 2822 spef nets
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:11 spef.cpp:27] added 453 spef nets
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c7552" end time: Aug 05 00:15 CST
+"it.tau15.c7552" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/64 Testing: it.tau15.c7552_slack
+17/64 Test: it.tau15.c7552_slack
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c7552_slack"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.c7552_slack" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 30400 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c7552_slack_Early.lib"
+I 34496 25-08-05 00:15:11 celllib.cpp:34] loading celllib "c7552_slack_Late.lib"
+I 38592 25-08-05 00:15:11 spef.cpp:15] loading spef "change_1.spef"
+I 42688 25-08-05 00:15:11 verilog.cpp:14] loading netlist "c7552_slack.v"
+I 46784 25-08-05 00:15:11 spef.cpp:15] loading spef "c7552_slack.spef"
+I 50880 25-08-05 00:15:11 spef.cpp:15] loading spef "change_2.spef"
+I 54976 25-08-05 00:15:11 tau15.cpp:76] loading timing "c7552_slack.timing" ...
+I 59072 25-08-05 00:15:11 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:15:11 spef.cpp:15] loading spef "change_3.spef"
+I 54976 25-08-05 00:15:11 spef.cpp:15] loading spef "change_5.spef"
+I 50880 25-08-05 00:15:11 spef.cpp:15] loading spef "change_6.spef"
+I 59072 25-08-05 00:15:11 spef.cpp:15] loading spef "change_7.spef"
+I 30400 25-08-05 00:15:11 unit.cpp:244] use celllib time unit 1e-12 s
+I 30400 25-08-05 00:15:11 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 30400 25-08-05 00:15:11 unit.cpp:272] use celllib current unit 0.001 A
+I 30400 25-08-05 00:15:11 unit.cpp:286] use celllib voltage unit 1 V
+I 30400 25-08-05 00:15:11 unit.cpp:314] use celllib power unit 1e-06 W
+I 30400 25-08-05 00:15:11 celllib.cpp:66] added min celllib "tau2015_c7552_slack_Early" [cells:105]
+I 30400 25-08-05 00:15:11 celllib.cpp:66] added max celllib "tau2015_c7552_slack_Late" [cells:105]
+I 30400 25-08-05 00:15:11 verilog.cpp:21] added verilog module "c7552_slack" [gates:1147]
+I 30400 25-08-05 00:15:11 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 1353 spef nets
+I 30400 25-08-05 00:15:11 tau15.cpp:81] add 626 timing assertions
+I 30400 25-08-05 00:15:11 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 2 spef nets
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 6 spef nets
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 100 spef nets
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 2822 spef nets
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:15:11 spef.cpp:27] added 453 spef nets
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.c7552_slack" end time: Aug 05 00:15 CST
+"it.tau15.c7552_slack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/64 Testing: it.tau15.simple
+18/64 Test: it.tau15.simple
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "simple"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.simple" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 34496 25-08-05 00:15:12 celllib.cpp:34] loading celllib "simple_Late.lib"
+I 30400 25-08-05 00:15:12 celllib.cpp:34] loading celllib "simple_Early.lib"
+I 38592 25-08-05 00:15:12 verilog.cpp:14] loading netlist "simple.v"
+I 42688 25-08-05 00:15:12 spef.cpp:15] loading spef "simple.spef"
+I 46784 25-08-05 00:15:12 tau15.cpp:76] loading timing "simple.timing" ...
+I 30400 25-08-05 00:15:12 unit.cpp:244] use celllib time unit 1e-12 s
+I 30400 25-08-05 00:15:12 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 30400 25-08-05 00:15:12 unit.cpp:272] use celllib current unit 0.001 A
+I 30400 25-08-05 00:15:12 unit.cpp:286] use celllib voltage unit 1 V
+I 30400 25-08-05 00:15:12 unit.cpp:300] use celllib resistance unit 1000 Ohm
+I 30400 25-08-05 00:15:12 unit.cpp:314] use celllib power unit 1e-06 W
+I 30400 25-08-05 00:15:12 celllib.cpp:66] added min celllib "contest" [cells:211]
+I 34496 25-08-05 00:15:12 celllib.cpp:66] added max celllib "contest" [cells:211]
+I 34496 25-08-05 00:15:12 verilog.cpp:21] added verilog module "simple" [gates:5]
+I 34496 25-08-05 00:15:12 spef.cpp:27] added 6 spef nets
+I 34496 25-08-05 00:15:12 tau15.cpp:81] add 9 timing assertions
+I 34496 25-08-05 00:15:12 timer.cpp:484] enable cppr analysis
+I 42688 25-08-05 00:15:12 spef.cpp:15] loading spef "change1.spef"
+I 42688 25-08-05 00:15:12 spef.cpp:27] added 2 spef nets
+I 42688 25-08-05 00:15:12 spef.cpp:15] loading spef "change2.spef"
+I 42688 25-08-05 00:15:12 spef.cpp:27] added 1 spef nets
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.simple" end time: Aug 05 00:15 CST
+"it.tau15.simple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/64 Testing: it.tau15.s27
+19/64 Test: it.tau15.s27
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s27"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s27" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 26304 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s27_Early.lib"
+I 30400 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s27_Late.lib"
+I 34496 25-08-05 00:15:12 verilog.cpp:14] loading netlist "s27.v"
+I 42688 25-08-05 00:15:12 spef.cpp:15] loading spef "s27.spef"
+I 38592 25-08-05 00:15:12 tau15.cpp:76] loading timing "s27.timing" ...
+I 26304 25-08-05 00:15:12 unit.cpp:244] use celllib time unit 1e-12 s
+I 26304 25-08-05 00:15:12 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 26304 25-08-05 00:15:12 unit.cpp:272] use celllib current unit 0.001 A
+I 26304 25-08-05 00:15:12 unit.cpp:286] use celllib voltage unit 1 V
+I 26304 25-08-05 00:15:12 unit.cpp:314] use celllib power unit 1e-06 W
+I 26304 25-08-05 00:15:12 celllib.cpp:66] added min celllib "tau2015_s27_Early" [cells:105]
+I 26304 25-08-05 00:15:12 celllib.cpp:66] added max celllib "tau2015_s27_Late" [cells:105]
+I 26304 25-08-05 00:15:12 verilog.cpp:21] added verilog module "s27" [gates:28]
+I 26304 25-08-05 00:15:12 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 26304 25-08-05 00:15:12 spef.cpp:27] added 34 spef nets
+I 26304 25-08-05 00:15:12 tau15.cpp:81] add 15 timing assertions
+I 26304 25-08-05 00:15:12 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:12 spef.cpp:15] loading spef "change_1.spef"
+I 30400 25-08-05 00:15:12 spef.cpp:27] added 2 spef nets
+I 34496 25-08-05 00:15:12 spef.cpp:15] loading spef "change_2.spef"
+I 34496 25-08-05 00:15:12 spef.cpp:27] added 6 spef nets
+I 26304 25-08-05 00:15:12 spef.cpp:15] loading spef "change_3.spef"
+I 26304 25-08-05 00:15:12 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:15:12 spef.cpp:15] loading spef "change_4.spef"
+I 50880 25-08-05 00:15:12 spef.cpp:27] added 62 spef nets
+I 34496 25-08-05 00:15:12 spef.cpp:15] loading spef "change_5.spef"
+I 34496 25-08-05 00:15:12 spef.cpp:27] added 124 spef nets
+I 42688 25-08-05 00:15:12 spef.cpp:15] loading spef "change_6.spef"
+I 42688 25-08-05 00:15:12 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:15:12 spef.cpp:15] loading spef "change_7.spef"
+I 30400 25-08-05 00:15:12 spef.cpp:27] added 16 spef nets
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s27" end time: Aug 05 00:15 CST
+"it.tau15.s27" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/64 Testing: it.tau15.s27_path
+20/64 Test: it.tau15.s27_path
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s27_path"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s27_path" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:12 spef.cpp:15] loading spef "change_1.spef"
+I 18112 25-08-05 00:15:12 tau15.cpp:76] loading timing "s27_path.timing" ...
+I  5824 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s27_path_Late.lib"
+I  9920 25-08-05 00:15:12 verilog.cpp:14] loading netlist "s27_path.v"
+I 14016 25-08-05 00:15:12 spef.cpp:15] loading spef "s27_path.spef"
+I  1728 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s27_path_Early.lib"
+I  1728 25-08-05 00:15:12 unit.cpp:244] use celllib time unit 1e-12 s
+I  1728 25-08-05 00:15:12 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  1728 25-08-05 00:15:12 unit.cpp:272] use celllib current unit 0.001 A
+I  1728 25-08-05 00:15:12 unit.cpp:286] use celllib voltage unit 1 V
+I  1728 25-08-05 00:15:12 unit.cpp:314] use celllib power unit 1e-06 W
+I  1728 25-08-05 00:15:12 celllib.cpp:66] added min celllib "tau2015_s27_path_Early" [cells:105]
+I  1728 25-08-05 00:15:12 celllib.cpp:66] added max celllib "tau2015_s27_path_Late" [cells:105]
+I  1728 25-08-05 00:15:12 verilog.cpp:21] added verilog module "s27_path" [gates:28]
+I  1728 25-08-05 00:15:12 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  1728 25-08-05 00:15:12 spef.cpp:27] added 34 spef nets
+I  1728 25-08-05 00:15:12 tau15.cpp:81] add 15 timing assertions
+I  1728 25-08-05 00:15:12 timer.cpp:484] enable cppr analysis
+I  1728 25-08-05 00:15:12 spef.cpp:27] added 2 spef nets
+I 14016 25-08-05 00:15:12 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:12 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:12 spef.cpp:15] loading spef "change_3.spef"
+I 18112 25-08-05 00:15:12 spef.cpp:27] added 10 spef nets
+I 14016 25-08-05 00:15:12 spef.cpp:15] loading spef "change_4.spef"
+I 14016 25-08-05 00:15:12 spef.cpp:27] added 62 spef nets
+I 22208 25-08-05 00:15:12 spef.cpp:15] loading spef "change_5.spef"
+I 22208 25-08-05 00:15:12 spef.cpp:27] added 124 spef nets
+I  1728 25-08-05 00:15:12 spef.cpp:15] loading spef "change_6.spef"
+I  1728 25-08-05 00:15:12 spef.cpp:27] added 5 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:15] loading spef "change_7.spef"
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 16 spef nets
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s27_path" end time: Aug 05 00:15 CST
+"it.tau15.s27_path" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/64 Testing: it.tau15.s27_spef
+21/64 Test: it.tau15.s27_spef
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s27_spef"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s27_spef" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 26304 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s27_spef_Early.lib"
+I 30400 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s27_spef_Late.lib"
+I 34496 25-08-05 00:15:12 verilog.cpp:14] loading netlist "s27_spef.v"
+I 38592 25-08-05 00:15:12 spef.cpp:15] loading spef "s27_spef.spef"
+I 42688 25-08-05 00:15:12 tau15.cpp:76] loading timing "s27_spef.timing" ...
+I 26304 25-08-05 00:15:12 unit.cpp:244] use celllib time unit 1e-12 s
+I 26304 25-08-05 00:15:12 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 26304 25-08-05 00:15:12 unit.cpp:272] use celllib current unit 0.001 A
+I 26304 25-08-05 00:15:12 unit.cpp:286] use celllib voltage unit 1 V
+I 26304 25-08-05 00:15:12 unit.cpp:314] use celllib power unit 1e-06 W
+I 26304 25-08-05 00:15:12 celllib.cpp:66] added min celllib "tau2015_s27_Early" [cells:105]
+I 30400 25-08-05 00:15:12 celllib.cpp:66] added max celllib "tau2015_s27_Late" [cells:105]
+I 30400 25-08-05 00:15:12 verilog.cpp:21] added verilog module "s27" [gates:28]
+I 30400 25-08-05 00:15:12 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 30400 25-08-05 00:15:12 spef.cpp:27] added 34 spef nets
+I 30400 25-08-05 00:15:12 tau15.cpp:81] add 15 timing assertions
+I 30400 25-08-05 00:15:12 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:12 spef.cpp:15] loading spef "change_1.spef"
+I 30400 25-08-05 00:15:12 spef.cpp:27] added 2 spef nets
+I 38592 25-08-05 00:15:12 spef.cpp:15] loading spef "change_2.spef"
+I 38592 25-08-05 00:15:12 spef.cpp:27] added 6 spef nets
+I 42688 25-08-05 00:15:12 spef.cpp:15] loading spef "change_3.spef"
+I 42688 25-08-05 00:15:12 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:15:12 spef.cpp:15] loading spef "change_4.spef"
+I 30400 25-08-05 00:15:12 spef.cpp:27] added 62 spef nets
+I 54976 25-08-05 00:15:12 spef.cpp:15] loading spef "change_5.spef"
+I 54976 25-08-05 00:15:12 spef.cpp:27] added 124 spef nets
+I 46784 25-08-05 00:15:12 spef.cpp:15] loading spef "change_6.spef"
+I 46784 25-08-05 00:15:12 spef.cpp:27] added 5 spef nets
+I 50880 25-08-05 00:15:12 spef.cpp:15] loading spef "change_7.spef"
+I 50880 25-08-05 00:15:12 spef.cpp:27] added 16 spef nets
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s27_spef" end time: Aug 05 00:15 CST
+"it.tau15.s27_spef" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/64 Testing: it.tau15.s344
+22/64 Test: it.tau15.s344
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s344"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s344" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I  9920 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s344_Late.lib"
+I 14016 25-08-05 00:15:12 verilog.cpp:14] loading netlist "s344.v"
+I 18112 25-08-05 00:15:12 spef.cpp:15] loading spef "s344.spef"
+I 22208 25-08-05 00:15:12 celllib.cpp:34] loading celllib "s344_Early.lib"
+I 30400 25-08-05 00:15:12 spef.cpp:15] loading spef "change_4.spef"
+I 26304 25-08-05 00:15:12 tau15.cpp:76] loading timing "s344.timing" ...
+I 34496 25-08-05 00:15:12 spef.cpp:15] loading spef "change_5.spef"
+I 38592 25-08-05 00:15:12 spef.cpp:15] loading spef "change_7.spef"
+I 26304 25-08-05 00:15:12 spef.cpp:15] loading spef "change_1.spef"
+I 30400 25-08-05 00:15:12 spef.cpp:15] loading spef "change_2.spef"
+I 38592 25-08-05 00:15:12 spef.cpp:15] loading spef "change_3.spef"
+I 18112 25-08-05 00:15:12 spef.cpp:15] loading spef "change_6.spef"
+I 22208 25-08-05 00:15:12 unit.cpp:244] use celllib time unit 1e-12 s
+I 22208 25-08-05 00:15:12 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 22208 25-08-05 00:15:12 unit.cpp:272] use celllib current unit 0.001 A
+I 22208 25-08-05 00:15:12 unit.cpp:286] use celllib voltage unit 1 V
+I 22208 25-08-05 00:15:12 unit.cpp:314] use celllib power unit 1e-06 W
+I 22208 25-08-05 00:15:12 celllib.cpp:66] added min celllib "tau2015_s344_Early" [cells:105]
+I  9920 25-08-05 00:15:12 celllib.cpp:66] added max celllib "tau2015_s344_Late" [cells:105]
+I  9920 25-08-05 00:15:12 verilog.cpp:21] added verilog module "s344" [gates:182]
+I  9920 25-08-05 00:15:12 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 193 spef nets
+I  9920 25-08-05 00:15:12 tau15.cpp:81] add 45 timing assertions
+I  9920 25-08-05 00:15:12 timer.cpp:484] enable cppr analysis
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 2 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 6 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 10 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 100 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 396 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 5 spef nets
+I  9920 25-08-05 00:15:12 spef.cpp:27] added 99 spef nets
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s344" end time: Aug 05 00:15 CST
+"it.tau15.s344" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/64 Testing: it.tau15.s349
+23/64 Test: it.tau15.s349
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s349"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s349" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 14016 25-08-05 00:15:13 spef.cpp:15] loading spef "change_2.spef"
+I 18112 25-08-05 00:15:13 spef.cpp:15] loading spef "change_3.spef"
+I 42688 25-08-05 00:15:13 spef.cpp:15] loading spef "s349.spef"
+I 34496 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s349_Late.lib"
+I 26304 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s349_Early.lib"
+I 30400 25-08-05 00:15:13 spef.cpp:15] loading spef "change_7.spef"
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:15:13 verilog.cpp:14] loading netlist "s349.v"
+I 18112 25-08-05 00:15:13 tau15.cpp:76] loading timing "s349.timing" ...
+I 14016 25-08-05 00:15:13 spef.cpp:15] loading spef "change_1.spef"
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_5.spef"
+I 30400 25-08-05 00:15:13 spef.cpp:15] loading spef "change_6.spef"
+I 26304 25-08-05 00:15:13 unit.cpp:244] use celllib time unit 1e-12 s
+I 26304 25-08-05 00:15:13 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 26304 25-08-05 00:15:13 unit.cpp:272] use celllib current unit 0.001 A
+I 26304 25-08-05 00:15:13 unit.cpp:286] use celllib voltage unit 1 V
+I 26304 25-08-05 00:15:13 unit.cpp:314] use celllib power unit 1e-06 W
+I 26304 25-08-05 00:15:13 celllib.cpp:66] added min celllib "tau2015_s349_Early" [cells:105]
+I 34496 25-08-05 00:15:13 celllib.cpp:66] added max celllib "tau2015_s349_Late" [cells:105]
+I 34496 25-08-05 00:15:13 verilog.cpp:21] added verilog module "s349" [gates:194]
+I 34496 25-08-05 00:15:13 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 205 spef nets
+I 34496 25-08-05 00:15:13 tau15.cpp:81] add 45 timing assertions
+I 34496 25-08-05 00:15:13 timer.cpp:484] enable cppr analysis
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 2 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 6 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 10 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 100 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 420 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 4 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 99 spef nets
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s349" end time: Aug 05 00:15 CST
+"it.tau15.s349" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/64 Testing: it.tau15.s386
+24/64 Test: it.tau15.s386
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s386"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s386" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s386_Late.lib"
+I 59072 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s386_Early.lib"
+I  5824 25-08-05 00:15:13 spef.cpp:15] loading spef "s386.spef"
+I  1728 25-08-05 00:15:13 verilog.cpp:14] loading netlist "s386.v"
+I  9920 25-08-05 00:15:13 tau15.cpp:76] loading timing "s386.timing" ...
+I 14016 25-08-05 00:15:13 spef.cpp:15] loading spef "change_4.spef"
+I 18112 25-08-05 00:15:13 spef.cpp:15] loading spef "change_7.spef"
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:13 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:13 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_5.spef"
+I 18112 25-08-05 00:15:13 spef.cpp:15] loading spef "change_6.spef"
+I 59072 25-08-05 00:15:13 unit.cpp:244] use celllib time unit 1e-12 s
+I 59072 25-08-05 00:15:13 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 59072 25-08-05 00:15:13 unit.cpp:272] use celllib current unit 0.001 A
+I 59072 25-08-05 00:15:13 unit.cpp:286] use celllib voltage unit 1 V
+I 59072 25-08-05 00:15:13 unit.cpp:314] use celllib power unit 1e-06 W
+I 59072 25-08-05 00:15:13 celllib.cpp:66] added min celllib "tau2015_s386_Early" [cells:105]
+I 59072 25-08-05 00:15:13 celllib.cpp:66] added max celllib "tau2015_s386_Late" [cells:105]
+I 59072 25-08-05 00:15:13 verilog.cpp:21] added verilog module "s386" [gates:177]
+I 59072 25-08-05 00:15:13 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 186 spef nets
+I 59072 25-08-05 00:15:13 tau15.cpp:81] add 33 timing assertions
+I 59072 25-08-05 00:15:13 timer.cpp:484] enable cppr analysis
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 2 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 6 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 10 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 100 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 446 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 4 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 113 spef nets
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s386" end time: Aug 05 00:15 CST
+"it.tau15.s386" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/64 Testing: it.tau15.s400
+25/64 Test: it.tau15.s400
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s400"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s400" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 38592 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s400_Late.lib"
+I 42688 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s400_Early.lib"
+I 46784 25-08-05 00:15:13 verilog.cpp:14] loading netlist "s400.v"
+I 50880 25-08-05 00:15:13 spef.cpp:15] loading spef "s400.spef"
+I 54976 25-08-05 00:15:13 tau15.cpp:76] loading timing "s400.timing" ...
+I 42688 25-08-05 00:15:13 unit.cpp:244] use celllib time unit 1e-12 s
+I 42688 25-08-05 00:15:13 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 42688 25-08-05 00:15:13 unit.cpp:272] use celllib current unit 0.001 A
+I 42688 25-08-05 00:15:13 unit.cpp:286] use celllib voltage unit 1 V
+I 42688 25-08-05 00:15:13 unit.cpp:314] use celllib power unit 1e-06 W
+I 42688 25-08-05 00:15:13 celllib.cpp:66] added min celllib "tau2015_s400_Early" [cells:105]
+I 42688 25-08-05 00:15:13 celllib.cpp:66] added max celllib "tau2015_s400_Late" [cells:105]
+I 42688 25-08-05 00:15:13 verilog.cpp:21] added verilog module "s400" [gates:221]
+I 42688 25-08-05 00:15:13 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 42688 25-08-05 00:15:13 spef.cpp:27] added 226 spef nets
+I 42688 25-08-05 00:15:13 tau15.cpp:81] add 23 timing assertions
+I 42688 25-08-05 00:15:13 timer.cpp:484] enable cppr analysis
+I 54976 25-08-05 00:15:13 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:15:13 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:15:13 spef.cpp:15] loading spef "change_2.spef"
+I 50880 25-08-05 00:15:13 spef.cpp:27] added 6 spef nets
+I 38592 25-08-05 00:15:13 spef.cpp:15] loading spef "change_3.spef"
+I 38592 25-08-05 00:15:13 spef.cpp:27] added 10 spef nets
+I 42688 25-08-05 00:15:13 spef.cpp:15] loading spef "change_4.spef"
+I 42688 25-08-05 00:15:13 spef.cpp:27] added 100 spef nets
+I  1728 25-08-05 00:15:13 spef.cpp:15] loading spef "change_5.spef"
+I  1728 25-08-05 00:15:13 spef.cpp:27] added 426 spef nets
+I 50880 25-08-05 00:15:13 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:15:13 spef.cpp:27] added 5 spef nets
+I 59072 25-08-05 00:15:13 spef.cpp:15] loading spef "change_7.spef"
+I 59072 25-08-05 00:15:13 spef.cpp:27] added 105 spef nets
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s400" end time: Aug 05 00:15 CST
+"it.tau15.s400" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/64 Testing: it.tau15.s510
+26/64 Test: it.tau15.s510
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s510"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s510" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_5.spef"
+I 50880 25-08-05 00:15:13 tau15.cpp:76] loading timing "s510.timing" ...
+I 30400 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s510_Early.lib"
+I 38592 25-08-05 00:15:13 spef.cpp:15] loading spef "change_6.spef"
+I 34496 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s510_Late.lib"
+I 46784 25-08-05 00:15:13 verilog.cpp:14] loading netlist "s510.v"
+I 42688 25-08-05 00:15:13 spef.cpp:15] loading spef "s510.spef"
+I 26304 25-08-05 00:15:13 spef.cpp:15] loading spef "change_4.spef"
+I 50880 25-08-05 00:15:13 spef.cpp:15] loading spef "change_1.spef"
+I 38592 25-08-05 00:15:13 spef.cpp:15] loading spef "change_2.spef"
+I 26304 25-08-05 00:15:13 spef.cpp:15] loading spef "change_3.spef"
+I 50880 25-08-05 00:15:13 spef.cpp:15] loading spef "change_7.spef"
+I 30400 25-08-05 00:15:13 unit.cpp:244] use celllib time unit 1e-12 s
+I 30400 25-08-05 00:15:13 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 30400 25-08-05 00:15:13 unit.cpp:272] use celllib current unit 0.001 A
+I 30400 25-08-05 00:15:13 unit.cpp:286] use celllib voltage unit 1 V
+I 30400 25-08-05 00:15:13 unit.cpp:314] use celllib power unit 1e-06 W
+I 30400 25-08-05 00:15:13 celllib.cpp:66] added min celllib "tau2015_s510_Early" [cells:105]
+I 34496 25-08-05 00:15:13 celllib.cpp:66] added max celllib "tau2015_s510_Late" [cells:105]
+I 34496 25-08-05 00:15:13 verilog.cpp:21] added verilog module "s510" [gates:291]
+I 34496 25-08-05 00:15:13 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 312 spef nets
+I 34496 25-08-05 00:15:13 tau15.cpp:81] add 57 timing assertions
+I 34496 25-08-05 00:15:13 timer.cpp:484] enable cppr analysis
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 2 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 6 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 10 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 100 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 698 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 5 spef nets
+I 34496 25-08-05 00:15:13 spef.cpp:27] added 195 spef nets
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s510" end time: Aug 05 00:15 CST
+"it.tau15.s510" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/64 Testing: it.tau15.s526
+27/64 Test: it.tau15.s526
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s526"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s526" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s526_Early.lib"
+I  1728 25-08-05 00:15:13 celllib.cpp:34] loading celllib "s526_Late.lib"
+I  5824 25-08-05 00:15:13 spef.cpp:15] loading spef "change_4.spef"
+I  9920 25-08-05 00:15:13 verilog.cpp:14] loading netlist "s526.v"
+I 18112 25-08-05 00:15:13 spef.cpp:15] loading spef "s526.spef"
+I 14016 25-08-05 00:15:13 tau15.cpp:76] loading timing "s526.timing" ...
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_1.spef"
+I 26304 25-08-05 00:15:13 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:13 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:13 spef.cpp:15] loading spef "change_5.spef"
+I  5824 25-08-05 00:15:13 spef.cpp:15] loading spef "change_6.spef"
+I 26304 25-08-05 00:15:13 spef.cpp:15] loading spef "change_7.spef"
+I 63168 25-08-05 00:15:13 unit.cpp:244] use celllib time unit 1e-12 s
+I 63168 25-08-05 00:15:13 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 63168 25-08-05 00:15:13 unit.cpp:272] use celllib current unit 0.001 A
+I 63168 25-08-05 00:15:13 unit.cpp:286] use celllib voltage unit 1 V
+I 63168 25-08-05 00:15:13 unit.cpp:314] use celllib power unit 1e-06 W
+I 63168 25-08-05 00:15:13 celllib.cpp:66] added min celllib "tau2015_s526_Early" [cells:105]
+I 63168 25-08-05 00:15:13 celllib.cpp:66] added max celllib "tau2015_s526_Late" [cells:105]
+I 63168 25-08-05 00:15:13 verilog.cpp:21] added verilog module "s526" [gates:304]
+I 63168 25-08-05 00:15:13 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 309 spef nets
+I 63168 25-08-05 00:15:13 tau15.cpp:81] add 23 timing assertions
+I 63168 25-08-05 00:15:13 timer.cpp:484] enable cppr analysis
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 2 spef nets
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 6 spef nets
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 10 spef nets
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 100 spef nets
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 592 spef nets
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 5 spef nets
+I 63168 25-08-05 00:15:13 spef.cpp:27] added 154 spef nets
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s526" end time: Aug 05 00:15 CST
+"it.tau15.s526" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/64 Testing: it.tau15.s1196
+28/64 Test: it.tau15.s1196
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s1196"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s1196" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 26304 25-08-05 00:15:14 spef.cpp:15] loading spef "change_3.spef"
+I 30400 25-08-05 00:15:14 celllib.cpp:34] loading celllib "s1196_Early.lib"
+I 50880 25-08-05 00:15:14 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:15:14 verilog.cpp:14] loading netlist "s1196.v"
+I 34496 25-08-05 00:15:14 celllib.cpp:34] loading celllib "s1196_Late.lib"
+I 46784 25-08-05 00:15:14 tau15.cpp:76] loading timing "s1196.timing" ...
+I 54976 25-08-05 00:15:14 spef.cpp:15] loading spef "change_1.spef"
+I 42688 25-08-05 00:15:14 spef.cpp:15] loading spef "s1196.spef"
+I 46784 25-08-05 00:15:14 spef.cpp:15] loading spef "change_2.spef"
+I 54976 25-08-05 00:15:14 spef.cpp:15] loading spef "change_5.spef"
+I 50880 25-08-05 00:15:14 spef.cpp:15] loading spef "change_6.spef"
+I 26304 25-08-05 00:15:14 spef.cpp:15] loading spef "change_7.spef"
+I 30400 25-08-05 00:15:14 unit.cpp:244] use celllib time unit 1e-12 s
+I 30400 25-08-05 00:15:14 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 30400 25-08-05 00:15:14 unit.cpp:272] use celllib current unit 0.001 A
+I 30400 25-08-05 00:15:14 unit.cpp:286] use celllib voltage unit 1 V
+I 30400 25-08-05 00:15:14 unit.cpp:314] use celllib power unit 1e-06 W
+I 30400 25-08-05 00:15:14 celllib.cpp:66] added min celllib "tau2015_s1196_Early" [cells:105]
+I 30400 25-08-05 00:15:14 celllib.cpp:66] added max celllib "tau2015_s1196_Late" [cells:105]
+I 30400 25-08-05 00:15:14 verilog.cpp:21] added verilog module "s1196" [gates:641]
+I 30400 25-08-05 00:15:14 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 657 spef nets
+I 30400 25-08-05 00:15:14 tau15.cpp:81] add 61 timing assertions
+I 30400 25-08-05 00:15:14 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 2 spef nets
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 6 spef nets
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 100 spef nets
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 1316 spef nets
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:15:14 spef.cpp:27] added 348 spef nets
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s1196" end time: Aug 05 00:15 CST
+"it.tau15.s1196" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/64 Testing: it.tau15.s1494
+29/64 Test: it.tau15.s1494
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s1494"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.s1494" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 34496 25-08-05 00:15:14 celllib.cpp:34] loading celllib "s1494_Early.lib"
+I 38592 25-08-05 00:15:14 celllib.cpp:34] loading celllib "s1494_Late.lib"
+I 42688 25-08-05 00:15:14 spef.cpp:15] loading spef "change_4.spef"
+I 46784 25-08-05 00:15:14 spef.cpp:15] loading spef "change_1.spef"
+I 50880 25-08-05 00:15:14 spef.cpp:15] loading spef "change_2.spef"
+I 54976 25-08-05 00:15:14 verilog.cpp:14] loading netlist "s1494.v"
+I 59072 25-08-05 00:15:14 spef.cpp:15] loading spef "s1494.spef"
+I 63168 25-08-05 00:15:14 tau15.cpp:76] loading timing "s1494.timing" ...
+I 63168 25-08-05 00:15:14 spef.cpp:15] loading spef "change_5.spef"
+I 42688 25-08-05 00:15:14 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:15:14 spef.cpp:15] loading spef "change_3.spef"
+I 46784 25-08-05 00:15:14 spef.cpp:15] loading spef "change_7.spef"
+I 34496 25-08-05 00:15:14 unit.cpp:244] use celllib time unit 1e-12 s
+I 34496 25-08-05 00:15:14 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 34496 25-08-05 00:15:14 unit.cpp:272] use celllib current unit 0.001 A
+I 34496 25-08-05 00:15:14 unit.cpp:286] use celllib voltage unit 1 V
+I 34496 25-08-05 00:15:14 unit.cpp:314] use celllib power unit 1e-06 W
+I 34496 25-08-05 00:15:14 celllib.cpp:66] added min celllib "tau2015_s1494_Early" [cells:105]
+I 38592 25-08-05 00:15:14 celllib.cpp:66] added max celllib "tau2015_s1494_Late" [cells:105]
+I 38592 25-08-05 00:15:14 verilog.cpp:21] added verilog module "s1494" [gates:804]
+I 38592 25-08-05 00:15:14 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 814 spef nets
+I 38592 25-08-05 00:15:14 tau15.cpp:81] add 59 timing assertions
+I 38592 25-08-05 00:15:14 timer.cpp:484] enable cppr analysis
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 2 spef nets
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 6 spef nets
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 10 spef nets
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 100 spef nets
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 1702 spef nets
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 5 spef nets
+I 38592 25-08-05 00:15:14 spef.cpp:27] added 387 spef nets
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.s1494" end time: Aug 05 00:15 CST
+"it.tau15.s1494" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/64 Testing: it.tau15.tv80
+30/64 Test: it.tau15.tv80
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "tv80"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.tv80" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 54976 25-08-05 00:15:14 celllib.cpp:34] loading celllib "tv80_Early.lib"
+I 59072 25-08-05 00:15:14 celllib.cpp:34] loading celllib "tv80_Late.lib"
+I 63168 25-08-05 00:15:14 verilog.cpp:14] loading netlist "tv80.v"
+I  1728 25-08-05 00:15:14 spef.cpp:15] loading spef "tv80.spef"
+I  5824 25-08-05 00:15:14 tau15.cpp:76] loading timing "tv80.timing" ...
+I  9920 25-08-05 00:15:14 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:15:14 unit.cpp:244] use celllib time unit 1e-12 s
+I 54976 25-08-05 00:15:14 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 54976 25-08-05 00:15:14 unit.cpp:272] use celllib current unit 0.001 A
+I 54976 25-08-05 00:15:14 unit.cpp:286] use celllib voltage unit 1 V
+I 54976 25-08-05 00:15:14 unit.cpp:314] use celllib power unit 1e-06 W
+I 54976 25-08-05 00:15:14 celllib.cpp:66] added min celllib "tau2015_tv80_Early" [cells:105]
+I 59072 25-08-05 00:15:14 celllib.cpp:66] added max celllib "tau2015_tv80_Late" [cells:105]
+I 59072 25-08-05 00:15:14 verilog.cpp:21] added verilog module "tv80" [gates:5285]
+I  1728 25-08-05 00:15:14 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  1728 25-08-05 00:15:14 spef.cpp:27] added 5317 spef nets
+I  1728 25-08-05 00:15:14 tau15.cpp:81] add 93 timing assertions
+I  1728 25-08-05 00:15:14 timer.cpp:484] enable cppr analysis
+I  1728 25-08-05 00:15:14 spef.cpp:27] added 2 spef nets
+I 63168 25-08-05 00:15:15 spef.cpp:15] loading spef "change_2.spef"
+I 63168 25-08-05 00:15:15 spef.cpp:27] added 6 spef nets
+I  1728 25-08-05 00:15:15 spef.cpp:15] loading spef "change_3.spef"
+I  1728 25-08-05 00:15:15 spef.cpp:27] added 10 spef nets
+I  1728 25-08-05 00:15:15 spef.cpp:15] loading spef "change_4.spef"
+I  1728 25-08-05 00:15:15 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:15 spef.cpp:15] loading spef "change_5.spef"
+I 18112 25-08-05 00:15:15 spef.cpp:27] added 8544 spef nets
+I 63168 25-08-05 00:15:16 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:16 spef.cpp:27] added 5 spef nets
+I 63168 25-08-05 00:15:17 spef.cpp:15] loading spef "change_7.spef"
+I  1728 25-08-05 00:15:17 spef.cpp:27] added 477 spef nets
+<end of output>
+Test time =   3.46 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.tv80" end time: Aug 05 00:15 CST
+"it.tau15.tv80" time elapsed: 00:00:03
+----------------------------------------------------------
+
+31/64 Testing: it.tau15.wb_dma
+31/64 Test: it.tau15.wb_dma
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "wb_dma"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.wb_dma" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:18 celllib.cpp:34] loading celllib "wb_dma_Early.lib"
+I 59072 25-08-05 00:15:18 celllib.cpp:34] loading celllib "wb_dma_Late.lib"
+I  1728 25-08-05 00:15:18 verilog.cpp:14] loading netlist "wb_dma.v"
+I  5824 25-08-05 00:15:18 spef.cpp:15] loading spef "wb_dma.spef"
+I  9920 25-08-05 00:15:18 tau15.cpp:76] loading timing "wb_dma.timing" ...
+I 63168 25-08-05 00:15:18 unit.cpp:244] use celllib time unit 1e-12 s
+I 63168 25-08-05 00:15:18 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 63168 25-08-05 00:15:18 unit.cpp:272] use celllib current unit 0.001 A
+I 63168 25-08-05 00:15:18 unit.cpp:286] use celllib voltage unit 1 V
+I 63168 25-08-05 00:15:18 unit.cpp:314] use celllib power unit 1e-06 W
+I 63168 25-08-05 00:15:18 celllib.cpp:66] added min celllib "tau2015_wb_dma_Early" [cells:105]
+I 63168 25-08-05 00:15:18 celllib.cpp:66] added max celllib "tau2015_wb_dma_Late" [cells:105]
+I 63168 25-08-05 00:15:18 verilog.cpp:21] added verilog module "wb_dma" [gates:4195]
+I  5824 25-08-05 00:15:18 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  5824 25-08-05 00:15:18 spef.cpp:27] added 4418 spef nets
+I  5824 25-08-05 00:15:18 tau15.cpp:81] add 865 timing assertions
+I  5824 25-08-05 00:15:18 timer.cpp:484] enable cppr analysis
+I  9920 25-08-05 00:15:18 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:18 spef.cpp:27] added 2 spef nets
+I  9920 25-08-05 00:15:18 spef.cpp:15] loading spef "change_2.spef"
+I  9920 25-08-05 00:15:18 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:18 spef.cpp:15] loading spef "change_3.spef"
+I 18112 25-08-05 00:15:18 spef.cpp:27] added 10 spef nets
+I  5824 25-08-05 00:15:19 spef.cpp:15] loading spef "change_4.spef"
+I  5824 25-08-05 00:15:19 spef.cpp:27] added 100 spef nets
+I  5824 25-08-05 00:15:19 spef.cpp:15] loading spef "change_5.spef"
+I  5824 25-08-05 00:15:19 spef.cpp:27] added 5780 spef nets
+I 14016 25-08-05 00:15:19 spef.cpp:15] loading spef "change_6.spef"
+I 14016 25-08-05 00:15:19 spef.cpp:27] added 5 spef nets
+I 63168 25-08-05 00:15:20 spef.cpp:15] loading spef "change_7.spef"
+I 63168 25-08-05 00:15:20 spef.cpp:27] added 468 spef nets
+<end of output>
+Test time =   4.24 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.wb_dma" end time: Aug 05 00:15 CST
+"it.tau15.wb_dma" time elapsed: 00:00:04
+----------------------------------------------------------
+
+32/64 Testing: it.tau15.usb_phy_ispd
+32/64 Test: it.tau15.usb_phy_ispd
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "usb_phy_ispd"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.usb_phy_ispd" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 14016 25-08-05 00:15:22 celllib.cpp:34] loading celllib "usb_phy_ispd_Late.lib"
+I 26304 25-08-05 00:15:22 tau15.cpp:76] loading timing "usb_phy_ispd.timing" ...
+I 18112 25-08-05 00:15:22 verilog.cpp:14] loading netlist "usb_phy_ispd.v"
+I 22208 25-08-05 00:15:22 spef.cpp:15] loading spef "usb_phy_ispd.spef"
+I 30400 25-08-05 00:15:22 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:22 celllib.cpp:34] loading celllib "usb_phy_ispd_Early.lib"
+I  9920 25-08-05 00:15:22 unit.cpp:244] use celllib time unit 1e-12 s
+I  9920 25-08-05 00:15:22 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  9920 25-08-05 00:15:22 unit.cpp:272] use celllib current unit 0.001 A
+I  9920 25-08-05 00:15:22 unit.cpp:286] use celllib voltage unit 1 V
+I  9920 25-08-05 00:15:22 unit.cpp:300] use celllib resistance unit 1000 Ohm
+I  9920 25-08-05 00:15:22 unit.cpp:314] use celllib power unit 1e-06 W
+I  9920 25-08-05 00:15:22 celllib.cpp:66] added min celllib "tau2015contest" [cells:334]
+I  9920 25-08-05 00:15:22 celllib.cpp:66] added max celllib "tau2015contest" [cells:334]
+I  9920 25-08-05 00:15:22 verilog.cpp:21] added verilog module "usb_phy_ispd" [gates:923]
+I  9920 25-08-05 00:15:22 spef.cpp:27] added 938 spef nets
+I  9920 25-08-05 00:15:22 tau15.cpp:81] add 69 timing assertions
+I  9920 25-08-05 00:15:22 timer.cpp:484] enable cppr analysis
+I  9920 25-08-05 00:15:22 spef.cpp:27] added 2 spef nets
+I 22208 25-08-05 00:15:22 spef.cpp:15] loading spef "change_2.spef"
+I 22208 25-08-05 00:15:22 spef.cpp:27] added 6 spef nets
+I  9920 25-08-05 00:15:22 spef.cpp:15] loading spef "change_3.spef"
+I  9920 25-08-05 00:15:22 spef.cpp:27] added 10 spef nets
+I  9920 25-08-05 00:15:22 spef.cpp:15] loading spef "change_4.spef"
+I  9920 25-08-05 00:15:22 spef.cpp:27] added 100 spef nets
+I 26304 25-08-05 00:15:22 spef.cpp:15] loading spef "change_5.spef"
+I 26304 25-08-05 00:15:22 spef.cpp:27] added 1364 spef nets
+I  9920 25-08-05 00:15:22 spef.cpp:15] loading spef "change_6.spef"
+I  9920 25-08-05 00:15:22 spef.cpp:27] added 5 spef nets
+I 38592 25-08-05 00:15:22 spef.cpp:15] loading spef "change_7.spef"
+I 38592 25-08-05 00:15:22 spef.cpp:27] added 357 spef nets
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.usb_phy_ispd" end time: Aug 05 00:15 CST
+"it.tau15.usb_phy_ispd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/64 Testing: it.tau15.ac97_ctrl
+33/64 Test: it.tau15.ac97_ctrl
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "ac97_ctrl"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.ac97_ctrl" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 42688 25-08-05 00:15:22 spef.cpp:15] loading spef "ac97_ctrl.spef"
+I 34496 25-08-05 00:15:22 celllib.cpp:34] loading celllib "ac97_ctrl_Late.lib"
+I 26304 25-08-05 00:15:22 celllib.cpp:34] loading celllib "ac97_ctrl_Early.lib"
+I 30400 25-08-05 00:15:22 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:15:22 verilog.cpp:14] loading netlist "ac97_ctrl.v"
+I 18112 25-08-05 00:15:22 spef.cpp:15] loading spef "change_7.spef"
+I 22208 25-08-05 00:15:22 tau15.cpp:76] loading timing "ac97_ctrl.timing" ...
+I 46784 25-08-05 00:15:22 spef.cpp:15] loading spef "change_1.spef"
+I 22208 25-08-05 00:15:22 spef.cpp:15] loading spef "change_2.spef"
+I 46784 25-08-05 00:15:22 spef.cpp:15] loading spef "change_3.spef"
+I 30400 25-08-05 00:15:22 spef.cpp:15] loading spef "change_5.spef"
+I 22208 25-08-05 00:15:22 spef.cpp:15] loading spef "change_6.spef"
+I 26304 25-08-05 00:15:22 unit.cpp:244] use celllib time unit 1e-12 s
+I 26304 25-08-05 00:15:22 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 26304 25-08-05 00:15:22 unit.cpp:272] use celllib current unit 0.001 A
+I 26304 25-08-05 00:15:22 unit.cpp:286] use celllib voltage unit 1 V
+I 26304 25-08-05 00:15:22 unit.cpp:314] use celllib power unit 1e-06 W
+I 26304 25-08-05 00:15:22 celllib.cpp:66] added min celllib "tau2015_ac97_ctrl_Early" [cells:105]
+I 26304 25-08-05 00:15:22 celllib.cpp:66] added max celllib "tau2015_ac97_ctrl_Late" [cells:105]
+I 38592 25-08-05 00:15:22 verilog.cpp:21] added verilog module "ac97_ctrl" [gates:14341]
+I 38592 25-08-05 00:15:22 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 38592 25-08-05 00:15:22 spef.cpp:27] added 14407 spef nets
+I 38592 25-08-05 00:15:22 tau15.cpp:81] add 265 timing assertions
+I 38592 25-08-05 00:15:22 timer.cpp:484] enable cppr analysis
+I 38592 25-08-05 00:15:22 spef.cpp:27] added 2 spef nets
+I 38592 25-08-05 00:15:22 spef.cpp:27] added 6 spef nets
+I 38592 25-08-05 00:15:22 spef.cpp:27] added 10 spef nets
+I 38592 25-08-05 00:15:22 spef.cpp:27] added 100 spef nets
+I 38592 25-08-05 00:15:23 spef.cpp:27] added 10000 spef nets
+I 38592 25-08-05 00:15:23 spef.cpp:27] added 5 spef nets
+I 38592 25-08-05 00:15:23 spef.cpp:27] added 485 spef nets
+<end of output>
+Test time =   1.16 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.ac97_ctrl" end time: Aug 05 00:15 CST
+"it.tau15.ac97_ctrl" time elapsed: 00:00:01
+----------------------------------------------------------
+
+34/64 Testing: it.tau15.aes_core
+34/64 Test: it.tau15.aes_core
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "aes_core"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.aes_core" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 46784 25-08-05 00:15:23 celllib.cpp:34] loading celllib "aes_core_Late.lib"
+I 63168 25-08-05 00:15:23 spef.cpp:15] loading spef "change_4.spef"
+I 50880 25-08-05 00:15:23 spef.cpp:15] loading spef "change_3.spef"
+I 54976 25-08-05 00:15:23 celllib.cpp:34] loading celllib "aes_core_Early.lib"
+I 59072 25-08-05 00:15:23 verilog.cpp:14] loading netlist "aes_core.v"
+I  1728 25-08-05 00:15:23 tau15.cpp:76] loading timing "aes_core.timing" ...
+I  9920 25-08-05 00:15:23 spef.cpp:15] loading spef "change_1.spef"
+I  5824 25-08-05 00:15:23 spef.cpp:15] loading spef "aes_core.spef"
+I  1728 25-08-05 00:15:23 spef.cpp:15] loading spef "change_2.spef"
+I 50880 25-08-05 00:15:23 spef.cpp:15] loading spef "change_5.spef"
+I  9920 25-08-05 00:15:23 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:23 spef.cpp:15] loading spef "change_7.spef"
+I 54976 25-08-05 00:15:23 unit.cpp:244] use celllib time unit 1e-12 s
+I 54976 25-08-05 00:15:23 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 54976 25-08-05 00:15:23 unit.cpp:272] use celllib current unit 0.001 A
+I 54976 25-08-05 00:15:23 unit.cpp:286] use celllib voltage unit 1 V
+I 54976 25-08-05 00:15:23 unit.cpp:314] use celllib power unit 1e-06 W
+I 54976 25-08-05 00:15:23 celllib.cpp:66] added min celllib "tau2015_aes_core_Early" [cells:105]
+I 54976 25-08-05 00:15:23 celllib.cpp:66] added max celllib "tau2015_aes_core_Late" [cells:105]
+I 59072 25-08-05 00:15:24 verilog.cpp:21] added verilog module "aes_core" [gates:22938]
+I  5824 25-08-05 00:15:24 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 23199 spef nets
+I  5824 25-08-05 00:15:24 tau15.cpp:81] add 779 timing assertions
+I  5824 25-08-05 00:15:24 timer.cpp:484] enable cppr analysis
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 2 spef nets
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 6 spef nets
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 10 spef nets
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 100 spef nets
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 10000 spef nets
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 5 spef nets
+I  5824 25-08-05 00:15:24 spef.cpp:27] added 482 spef nets
+<end of output>
+Test time =   2.19 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.aes_core" end time: Aug 05 00:15 CST
+"it.tau15.aes_core" time elapsed: 00:00:02
+----------------------------------------------------------
+
+35/64 Testing: it.tau15.des_perf
+35/64 Test: it.tau15.des_perf
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "des_perf"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.des_perf" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 14016 25-08-05 00:15:25 celllib.cpp:34] loading celllib "des_perf_Late.lib"
+I 22208 25-08-05 00:15:25 verilog.cpp:14] loading netlist "des_perf.v"
+I 18112 25-08-05 00:15:25 celllib.cpp:34] loading celllib "des_perf_Early.lib"
+I 26304 25-08-05 00:15:25 spef.cpp:15] loading spef "des_perf.spef"
+I 30400 25-08-05 00:15:25 tau15.cpp:76] loading timing "des_perf.timing" ...
+I 34496 25-08-05 00:15:25 spef.cpp:15] loading spef "change_4.spef"
+I 42688 25-08-05 00:15:25 spef.cpp:15] loading spef "change_1.spef"
+I 38592 25-08-05 00:15:25 spef.cpp:15] loading spef "change_2.spef"
+I 38592 25-08-05 00:15:25 spef.cpp:15] loading spef "change_3.spef"
+I 42688 25-08-05 00:15:25 spef.cpp:15] loading spef "change_5.spef"
+I 30400 25-08-05 00:15:25 spef.cpp:15] loading spef "change_6.spef"
+I 34496 25-08-05 00:15:25 spef.cpp:15] loading spef "change_7.spef"
+I 18112 25-08-05 00:15:25 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:15:25 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:15:25 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:15:25 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:15:25 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:15:25 celllib.cpp:66] added min celllib "tau2015_des_perf_Early" [cells:105]
+I 18112 25-08-05 00:15:25 celllib.cpp:66] added max celllib "tau2015_des_perf_Late" [cells:105]
+I 22208 25-08-05 00:15:27 verilog.cpp:21] added verilog module "des_perf" [gates:105371]
+I 22208 25-08-05 00:15:27 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 106532 spef nets
+I 22208 25-08-05 00:15:27 tau15.cpp:81] add 599 timing assertions
+I 22208 25-08-05 00:15:27 timer.cpp:484] enable cppr analysis
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 2 spef nets
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 6 spef nets
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 10 spef nets
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 100 spef nets
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 10000 spef nets
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 5 spef nets
+I 22208 25-08-05 00:15:27 spef.cpp:27] added 492 spef nets
+<end of output>
+Test time =   7.12 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.des_perf" end time: Aug 05 00:15 CST
+"it.tau15.des_perf" time elapsed: 00:00:07
+----------------------------------------------------------
+
+36/64 Testing: it.tau15.vga_lcd
+36/64 Test: it.tau15.vga_lcd
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/tau15.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-tau15" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "vga_lcd"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.tau15.vga_lcd" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 22208 25-08-05 00:15:33 spef.cpp:15] loading spef "change_1.spef"
+I 26304 25-08-05 00:15:33 spef.cpp:15] loading spef "change_2.spef"
+I 30400 25-08-05 00:15:33 spef.cpp:15] loading spef "change_3.spef"
+I 34496 25-08-05 00:15:33 spef.cpp:15] loading spef "change_7.spef"
+I 42688 25-08-05 00:15:33 celllib.cpp:34] loading celllib "vga_lcd_Early.lib"
+I 38592 25-08-05 00:15:33 spef.cpp:15] loading spef "change_4.spef"
+I 46784 25-08-05 00:15:33 celllib.cpp:34] loading celllib "vga_lcd_Late.lib"
+I 50880 25-08-05 00:15:33 verilog.cpp:14] loading netlist "vga_lcd.v"
+I 22208 25-08-05 00:15:33 spef.cpp:15] loading spef "vga_lcd.spef"
+I 26304 25-08-05 00:15:33 tau15.cpp:76] loading timing "vga_lcd.timing" ...
+I 30400 25-08-05 00:15:33 spef.cpp:15] loading spef "change_5.spef"
+I 38592 25-08-05 00:15:33 spef.cpp:15] loading spef "change_6.spef"
+I 42688 25-08-05 00:15:33 unit.cpp:244] use celllib time unit 1e-12 s
+I 42688 25-08-05 00:15:33 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 42688 25-08-05 00:15:33 unit.cpp:272] use celllib current unit 0.001 A
+I 42688 25-08-05 00:15:33 unit.cpp:286] use celllib voltage unit 1 V
+I 42688 25-08-05 00:15:33 unit.cpp:314] use celllib power unit 1e-06 W
+I 42688 25-08-05 00:15:33 celllib.cpp:66] added min celllib "tau2015_vga_lcd_Early" [cells:105]
+I 42688 25-08-05 00:15:33 celllib.cpp:66] added max celllib "tau2015_vga_lcd_Late" [cells:105]
+I 50880 25-08-05 00:15:34 verilog.cpp:21] added verilog module "vga_lcd" [gates:139529]
+I 50880 25-08-05 00:15:34 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 139632 spef nets
+I 50880 25-08-05 00:15:35 tau15.cpp:81] add 397 timing assertions
+I 50880 25-08-05 00:15:35 timer.cpp:484] enable cppr analysis
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 6 spef nets
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 100 spef nets
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 10000 spef nets
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 5 spef nets
+I 50880 25-08-05 00:15:35 spef.cpp:27] added 494 spef nets
+<end of output>
+Test time =   9.52 sec
+----------------------------------------------------------
+Test Passed.
+"it.tau15.vga_lcd" end time: Aug 05 00:15 CST
+"it.tau15.vga_lcd" time elapsed: 00:00:09
+----------------------------------------------------------
+
+37/64 Testing: it.shell.c3_slack
+37/64 Test: it.shell.c3_slack
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c3_slack"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c3_slack" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 30400 25-08-05 00:15:42 verilog.cpp:14] loading netlist "c3_slack.v"
+I 18112 25-08-05 00:15:42 spef.cpp:15] loading spef "change_6.spef"
+I  1728 25-08-05 00:15:42 spef.cpp:15] loading spef "change_5.spef"
+I  9920 25-08-05 00:15:42 spef.cpp:15] loading spef "change_3.spef"
+I 14016 25-08-05 00:15:42 spef.cpp:15] loading spef "change_4.spef"
+I 26304 25-08-05 00:15:42 spef.cpp:15] loading spef "change_7.spef"
+I 22208 25-08-05 00:15:42 celllib.cpp:34] loading celllib "c3_slack_Late.lib"
+I  5824 25-08-05 00:15:42 celllib.cpp:34] loading celllib "c3_slack_Early.lib"
+I 30400 25-08-05 00:15:42 spef.cpp:15] loading spef "c3_slack.spef"
+I  1728 25-08-05 00:15:42 spef.cpp:15] loading spef "change_1.spef"
+I 18112 25-08-05 00:15:42 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:42 sdc.cpp:35] loading sdc "c3_slack.sdc" ...
+I  5824 25-08-05 00:15:42 unit.cpp:244] use celllib time unit 1e-12 s
+I  5824 25-08-05 00:15:42 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  5824 25-08-05 00:15:42 unit.cpp:272] use celllib current unit 0.001 A
+I  5824 25-08-05 00:15:42 unit.cpp:286] use celllib voltage unit 1 V
+I  5824 25-08-05 00:15:42 unit.cpp:314] use celllib power unit 1e-06 W
+I  5824 25-08-05 00:15:42 celllib.cpp:66] added min celllib "tau2015_c3_slack_Early" [cells:105]
+I 22208 25-08-05 00:15:42 celllib.cpp:66] added max celllib "tau2015_c3_slack_Late" [cells:105]
+I 22208 25-08-05 00:15:42 verilog.cpp:21] added verilog module "c3_slack" [gates:3]
+I 22208 25-08-05 00:15:42 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 22208 25-08-05 00:15:42 spef.cpp:27] added 7 spef nets
+I 14016 25-08-05 00:15:42 sdc.cpp:21] added 48 sdc commands
+I 14016 25-08-05 00:15:42 timer.cpp:484] enable cppr analysis
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 2 spef nets
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 6 spef nets
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 10 spef nets
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 30 spef nets
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 60 spef nets
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 5 spef nets
+I 14016 25-08-05 00:15:42 spef.cpp:27] added 5 spef nets
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c3_slack" end time: Aug 05 00:15 CST
+"it.shell.c3_slack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/64 Testing: it.shell.c17
+38/64 Test: it.shell.c17
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c17"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c17" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:42 celllib.cpp:34] loading celllib "c17_Early.lib"
+I  1728 25-08-05 00:15:42 celllib.cpp:34] loading celllib "c17_Late.lib"
+I  5824 25-08-05 00:15:42 verilog.cpp:14] loading netlist "c17.v"
+I  9920 25-08-05 00:15:42 spef.cpp:15] loading spef "c17.spef"
+I 14016 25-08-05 00:15:42 sdc.cpp:35] loading sdc "c17.sdc" ...
+I 63168 25-08-05 00:15:43 unit.cpp:244] use celllib time unit 1e-12 s
+I 63168 25-08-05 00:15:43 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 63168 25-08-05 00:15:43 unit.cpp:272] use celllib current unit 0.001 A
+I 63168 25-08-05 00:15:43 unit.cpp:286] use celllib voltage unit 1 V
+I 63168 25-08-05 00:15:43 unit.cpp:314] use celllib power unit 1e-06 W
+I 63168 25-08-05 00:15:43 celllib.cpp:66] added min celllib "tau2015_c17_Early" [cells:105]
+I  1728 25-08-05 00:15:43 celllib.cpp:66] added max celllib "tau2015_c17_Late" [cells:105]
+I  1728 25-08-05 00:15:43 verilog.cpp:21] added verilog module "c17" [gates:6]
+I  1728 25-08-05 00:15:43 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  1728 25-08-05 00:15:43 spef.cpp:27] added 11 spef nets
+I 14016 25-08-05 00:15:43 sdc.cpp:21] added 51 sdc commands
+I 14016 25-08-05 00:15:43 timer.cpp:484] enable cppr analysis
+I 14016 25-08-05 00:15:43 spef.cpp:15] loading spef "change_1.spef"
+I 14016 25-08-05 00:15:43 spef.cpp:27] added 2 spef nets
+I  1728 25-08-05 00:15:43 spef.cpp:15] loading spef "change_2.spef"
+I  1728 25-08-05 00:15:43 spef.cpp:27] added 6 spef nets
+I 26304 25-08-05 00:15:43 spef.cpp:15] loading spef "change_3.spef"
+I 26304 25-08-05 00:15:43 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:43 spef.cpp:15] loading spef "change_4.spef"
+I 18112 25-08-05 00:15:43 spef.cpp:27] added 38 spef nets
+I 26304 25-08-05 00:15:43 spef.cpp:15] loading spef "change_5.spef"
+I 26304 25-08-05 00:15:43 spef.cpp:27] added 76 spef nets
+I  9920 25-08-05 00:15:43 spef.cpp:15] loading spef "change_6.spef"
+I  9920 25-08-05 00:15:43 spef.cpp:27] added 5 spef nets
+I  9920 25-08-05 00:15:43 spef.cpp:15] loading spef "change_7.spef"
+I  9920 25-08-05 00:15:43 spef.cpp:27] added 11 spef nets
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c17" end time: Aug 05 00:15 CST
+"it.shell.c17" time elapsed: 00:00:01
+----------------------------------------------------------
+
+39/64 Testing: it.shell.c17_slack
+39/64 Test: it.shell.c17_slack
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c17_slack"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c17_slack" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 14016 25-08-05 00:15:44 spef.cpp:15] loading spef "change_3.spef"
+I  9920 25-08-05 00:15:44 spef.cpp:15] loading spef "change_5.spef"
+I 18112 25-08-05 00:15:44 spef.cpp:15] loading spef "change_4.spef"
+I 22208 25-08-05 00:15:44 spef.cpp:15] loading spef "change_7.spef"
+I 26304 25-08-05 00:15:44 celllib.cpp:34] loading celllib "c17_slack_Early.lib"
+I 34496 25-08-05 00:15:44 celllib.cpp:34] loading celllib "c17_slack_Late.lib"
+I 30400 25-08-05 00:15:44 verilog.cpp:14] loading netlist "c17_slack.v"
+I 38592 25-08-05 00:15:44 spef.cpp:15] loading spef "c17_slack.spef"
+I 18112 25-08-05 00:15:44 spef.cpp:15] loading spef "change_1.spef"
+I 14016 25-08-05 00:15:44 spef.cpp:15] loading spef "change_2.spef"
+I 22208 25-08-05 00:15:44 spef.cpp:15] loading spef "change_6.spef"
+I 30400 25-08-05 00:15:44 sdc.cpp:35] loading sdc "c17_slack.sdc" ...
+I 26304 25-08-05 00:15:44 unit.cpp:244] use celllib time unit 1e-12 s
+I 26304 25-08-05 00:15:44 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 26304 25-08-05 00:15:44 unit.cpp:272] use celllib current unit 0.001 A
+I 26304 25-08-05 00:15:44 unit.cpp:286] use celllib voltage unit 1 V
+I 26304 25-08-05 00:15:44 unit.cpp:314] use celllib power unit 1e-06 W
+I 26304 25-08-05 00:15:44 celllib.cpp:66] added min celllib "tau2015_c17_slack_Early" [cells:105]
+I 26304 25-08-05 00:15:44 celllib.cpp:66] added max celllib "tau2015_c17_slack_Late" [cells:105]
+I 26304 25-08-05 00:15:44 verilog.cpp:21] added verilog module "c17_slack" [gates:6]
+I 26304 25-08-05 00:15:44 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 26304 25-08-05 00:15:44 spef.cpp:27] added 11 spef nets
+I 30400 25-08-05 00:15:44 sdc.cpp:21] added 51 sdc commands
+I 30400 25-08-05 00:15:44 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 2 spef nets
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 6 spef nets
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 38 spef nets
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 76 spef nets
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:15:44 spef.cpp:27] added 11 spef nets
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c17_slack" end time: Aug 05 00:15 CST
+"it.shell.c17_slack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/64 Testing: it.shell.c432
+40/64 Test: it.shell.c432
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c432"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c432" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:44 spef.cpp:15] loading spef "change_2.spef"
+I 22208 25-08-05 00:15:44 spef.cpp:15] loading spef "c432.spef"
+I  5824 25-08-05 00:15:44 celllib.cpp:34] loading celllib "c432_Early.lib"
+I  9920 25-08-05 00:15:44 spef.cpp:15] loading spef "change_5.spef"
+I 14016 25-08-05 00:15:44 celllib.cpp:34] loading celllib "c432_Late.lib"
+I 18112 25-08-05 00:15:44 verilog.cpp:14] loading netlist "c432.v"
+I 26304 25-08-05 00:15:44 spef.cpp:15] loading spef "change_6.spef"
+I  1728 25-08-05 00:15:44 spef.cpp:15] loading spef "change_3.spef"
+I 26304 25-08-05 00:15:44 spef.cpp:15] loading spef "change_4.spef"
+I  1728 25-08-05 00:15:44 spef.cpp:15] loading spef "change_1.spef"
+I 63168 25-08-05 00:15:44 spef.cpp:15] loading spef "change_7.spef"
+I 18112 25-08-05 00:15:44 sdc.cpp:35] loading sdc "c432.sdc" ...
+I  5824 25-08-05 00:15:44 unit.cpp:244] use celllib time unit 1e-12 s
+I  5824 25-08-05 00:15:44 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  5824 25-08-05 00:15:44 unit.cpp:272] use celllib current unit 0.001 A
+I  5824 25-08-05 00:15:44 unit.cpp:286] use celllib voltage unit 1 V
+I  5824 25-08-05 00:15:44 unit.cpp:314] use celllib power unit 1e-06 W
+I  5824 25-08-05 00:15:44 celllib.cpp:66] added min celllib "tau2015_c432_Early" [cells:105]
+I 14016 25-08-05 00:15:44 celllib.cpp:66] added max celllib "tau2015_c432_Late" [cells:105]
+I 14016 25-08-05 00:15:44 verilog.cpp:21] added verilog module "c432" [gates:134]
+I 14016 25-08-05 00:15:44 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 14016 25-08-05 00:15:44 spef.cpp:27] added 170 spef nets
+I 18112 25-08-05 00:15:44 sdc.cpp:21] added 324 sdc commands
+I 18112 25-08-05 00:15:44 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 456 spef nets
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:44 spef.cpp:27] added 141 spef nets
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c432" end time: Aug 05 00:15 CST
+"it.shell.c432" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/64 Testing: it.shell.c499
+41/64 Test: it.shell.c499
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c499"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c499" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 46784 25-08-05 00:15:44 spef.cpp:15] loading spef "change_2.spef"
+I 42688 25-08-05 00:15:44 celllib.cpp:34] loading celllib "c499_Early.lib"
+I 50880 25-08-05 00:15:44 spef.cpp:15] loading spef "change_3.spef"
+I 63168 25-08-05 00:15:44 celllib.cpp:34] loading celllib "c499_Late.lib"
+I 54976 25-08-05 00:15:44 spef.cpp:15] loading spef "change_4.spef"
+I 59072 25-08-05 00:15:44 verilog.cpp:14] loading netlist "c499.v"
+I  1728 25-08-05 00:15:44 spef.cpp:15] loading spef "change_5.spef"
+I  5824 25-08-05 00:15:44 spef.cpp:15] loading spef "c499.spef"
+I 50880 25-08-05 00:15:44 spef.cpp:15] loading spef "change_1.spef"
+I 46784 25-08-05 00:15:44 spef.cpp:15] loading spef "change_7.spef"
+I 54976 25-08-05 00:15:44 spef.cpp:15] loading spef "change_6.spef"
+I 59072 25-08-05 00:15:44 sdc.cpp:35] loading sdc "c499.sdc" ...
+I 42688 25-08-05 00:15:44 unit.cpp:244] use celllib time unit 1e-12 s
+I 42688 25-08-05 00:15:44 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 42688 25-08-05 00:15:44 unit.cpp:272] use celllib current unit 0.001 A
+I 42688 25-08-05 00:15:44 unit.cpp:286] use celllib voltage unit 1 V
+I 42688 25-08-05 00:15:44 unit.cpp:314] use celllib power unit 1e-06 W
+I 42688 25-08-05 00:15:44 celllib.cpp:66] added min celllib "tau2015_c499_Early" [cells:105]
+I 42688 25-08-05 00:15:44 celllib.cpp:66] added max celllib "tau2015_c499_Late" [cells:105]
+I 42688 25-08-05 00:15:44 verilog.cpp:21] added verilog module "c499" [gates:176]
+I 42688 25-08-05 00:15:44 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 42688 25-08-05 00:15:44 spef.cpp:27] added 217 spef nets
+I 59072 25-08-05 00:15:44 sdc.cpp:21] added 489 sdc commands
+I 59072 25-08-05 00:15:44 timer.cpp:484] enable cppr analysis
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 2 spef nets
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 6 spef nets
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 10 spef nets
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 100 spef nets
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 550 spef nets
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 5 spef nets
+I 59072 25-08-05 00:15:44 spef.cpp:27] added 206 spef nets
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c499" end time: Aug 05 00:15 CST
+"it.shell.c499" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/64 Testing: it.shell.c880
+42/64 Test: it.shell.c880
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c880"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c880" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I  5824 25-08-05 00:15:45 spef.cpp:15] loading spef "change_5.spef"
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_6.spef"
+I  1728 25-08-05 00:15:45 spef.cpp:15] loading spef "change_4.spef"
+I 18112 25-08-05 00:15:45 celllib.cpp:34] loading celllib "c880_Early.lib"
+I 14016 25-08-05 00:15:45 celllib.cpp:34] loading celllib "c880_Late.lib"
+I 22208 25-08-05 00:15:45 verilog.cpp:14] loading netlist "c880.v"
+I 26304 25-08-05 00:15:45 spef.cpp:15] loading spef "c880.spef"
+I 22208 25-08-05 00:15:45 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_2.spef"
+I  1728 25-08-05 00:15:45 spef.cpp:15] loading spef "change_3.spef"
+I 30400 25-08-05 00:15:45 sdc.cpp:35] loading sdc "c880.sdc" ...
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_7.spef"
+I 18112 25-08-05 00:15:45 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:15:45 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:15:45 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:15:45 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:15:45 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:15:45 celllib.cpp:66] added min celllib "tau2015_c880_Early" [cells:105]
+I 18112 25-08-05 00:15:45 celllib.cpp:66] added max celllib "tau2015_c880_Late" [cells:105]
+I 18112 25-08-05 00:15:45 verilog.cpp:21] added verilog module "c880" [gates:221]
+I 18112 25-08-05 00:15:45 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 18112 25-08-05 00:15:45 spef.cpp:27] added 281 spef nets
+I 30400 25-08-05 00:15:45 sdc.cpp:21] added 611 sdc commands
+I 30400 25-08-05 00:15:45 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 2 spef nets
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 6 spef nets
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 100 spef nets
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 678 spef nets
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:15:45 spef.cpp:27] added 265 spef nets
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c880" end time: Aug 05 00:15 CST
+"it.shell.c880" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/64 Testing: it.shell.c1355
+43/64 Test: it.shell.c1355
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c1355"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c1355" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:45 celllib.cpp:34] loading celllib "c1355_Early.lib"
+I 59072 25-08-05 00:15:45 spef.cpp:15] loading spef "change_4.spef"
+I  1728 25-08-05 00:15:45 celllib.cpp:34] loading celllib "c1355_Late.lib"
+I  5824 25-08-05 00:15:45 spef.cpp:15] loading spef "change_5.spef"
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_6.spef"
+I 14016 25-08-05 00:15:45 verilog.cpp:14] loading netlist "c1355.v"
+I 18112 25-08-05 00:15:45 spef.cpp:15] loading spef "c1355.spef"
+I 14016 25-08-05 00:15:45 spef.cpp:15] loading spef "change_1.spef"
+I 59072 25-08-05 00:15:45 spef.cpp:15] loading spef "change_2.spef"
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:45 sdc.cpp:35] loading sdc "c1355.sdc" ...
+I 14016 25-08-05 00:15:45 spef.cpp:15] loading spef "change_7.spef"
+I 63168 25-08-05 00:15:45 unit.cpp:244] use celllib time unit 1e-12 s
+I 63168 25-08-05 00:15:45 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 63168 25-08-05 00:15:45 unit.cpp:272] use celllib current unit 0.001 A
+I 63168 25-08-05 00:15:45 unit.cpp:286] use celllib voltage unit 1 V
+I 63168 25-08-05 00:15:45 unit.cpp:314] use celllib power unit 1e-06 W
+I 63168 25-08-05 00:15:45 celllib.cpp:66] added min celllib "tau2015_c1355_Early" [cells:105]
+I  1728 25-08-05 00:15:45 celllib.cpp:66] added max celllib "tau2015_c1355_Late" [cells:105]
+I  1728 25-08-05 00:15:45 verilog.cpp:21] added verilog module "c1355" [gates:180]
+I  1728 25-08-05 00:15:45 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  1728 25-08-05 00:15:45 spef.cpp:27] added 221 spef nets
+I 22208 25-08-05 00:15:45 sdc.cpp:21] added 489 sdc commands
+I 22208 25-08-05 00:15:45 timer.cpp:484] enable cppr analysis
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 2 spef nets
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 6 spef nets
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 10 spef nets
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 100 spef nets
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 558 spef nets
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 5 spef nets
+I 22208 25-08-05 00:15:45 spef.cpp:27] added 213 spef nets
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c1355" end time: Aug 05 00:15 CST
+"it.shell.c1355" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/64 Testing: it.shell.c1908
+44/64 Test: it.shell.c1908
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c1908"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c1908" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 50880 25-08-05 00:15:45 spef.cpp:15] loading spef "change_3.spef"
+I 54976 25-08-05 00:15:45 celllib.cpp:34] loading celllib "c1908_Early.lib"
+I 59072 25-08-05 00:15:45 celllib.cpp:34] loading celllib "c1908_Late.lib"
+I 63168 25-08-05 00:15:45 spef.cpp:15] loading spef "change_4.spef"
+I  5824 25-08-05 00:15:45 spef.cpp:15] loading spef "c1908.spef"
+I  1728 25-08-05 00:15:45 verilog.cpp:14] loading netlist "c1908.v"
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_1.spef"
+I  1728 25-08-05 00:15:45 spef.cpp:15] loading spef "change_2.spef"
+I 50880 25-08-05 00:15:45 spef.cpp:15] loading spef "change_5.spef"
+I  9920 25-08-05 00:15:45 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:45 spef.cpp:15] loading spef "change_7.spef"
+I 14016 25-08-05 00:15:45 sdc.cpp:35] loading sdc "c1908.sdc" ...
+I 54976 25-08-05 00:15:46 unit.cpp:244] use celllib time unit 1e-12 s
+I 54976 25-08-05 00:15:46 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 54976 25-08-05 00:15:46 unit.cpp:272] use celllib current unit 0.001 A
+I 54976 25-08-05 00:15:46 unit.cpp:286] use celllib voltage unit 1 V
+I 54976 25-08-05 00:15:46 unit.cpp:314] use celllib power unit 1e-06 W
+I 54976 25-08-05 00:15:46 celllib.cpp:66] added min celllib "tau2015_c1908_Early" [cells:105]
+I 59072 25-08-05 00:15:46 celllib.cpp:66] added max celllib "tau2015_c1908_Late" [cells:105]
+I 59072 25-08-05 00:15:46 verilog.cpp:21] added verilog module "c1908" [gates:222]
+I 59072 25-08-05 00:15:46 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 59072 25-08-05 00:15:46 spef.cpp:27] added 255 spef nets
+I 14016 25-08-05 00:15:46 sdc.cpp:21] added 390 sdc commands
+I 14016 25-08-05 00:15:46 timer.cpp:484] enable cppr analysis
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 2 spef nets
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 6 spef nets
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 10 spef nets
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 100 spef nets
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 626 spef nets
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 5 spef nets
+I 14016 25-08-05 00:15:46 spef.cpp:27] added 234 spef nets
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c1908" end time: Aug 05 00:15 CST
+"it.shell.c1908" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/64 Testing: it.shell.c2670
+45/64 Test: it.shell.c2670
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c2670"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c2670" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 46784 25-08-05 00:15:46 spef.cpp:15] loading spef "change_5.spef"
+I 54976 25-08-05 00:15:46 spef.cpp:15] loading spef "change_4.spef"
+I 50880 25-08-05 00:15:46 celllib.cpp:34] loading celllib "c2670_Early.lib"
+I 59072 25-08-05 00:15:46 spef.cpp:15] loading spef "change_6.spef"
+I  1728 25-08-05 00:15:46 celllib.cpp:34] loading celllib "c2670_Late.lib"
+I 63168 25-08-05 00:15:46 verilog.cpp:14] loading netlist "c2670.v"
+I  5824 25-08-05 00:15:46 spef.cpp:15] loading spef "change_7.spef"
+I  9920 25-08-05 00:15:46 spef.cpp:15] loading spef "c2670.spef"
+I 59072 25-08-05 00:15:46 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:15:46 spef.cpp:15] loading spef "change_2.spef"
+I  5824 25-08-05 00:15:46 spef.cpp:15] loading spef "change_3.spef"
+I 63168 25-08-05 00:15:46 sdc.cpp:35] loading sdc "c2670.sdc" ...
+I 50880 25-08-05 00:15:46 unit.cpp:244] use celllib time unit 1e-12 s
+I 50880 25-08-05 00:15:46 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 50880 25-08-05 00:15:46 unit.cpp:272] use celllib current unit 0.001 A
+I 50880 25-08-05 00:15:46 unit.cpp:286] use celllib voltage unit 1 V
+I 50880 25-08-05 00:15:46 unit.cpp:314] use celllib power unit 1e-06 W
+I 50880 25-08-05 00:15:46 celllib.cpp:66] added min celllib "tau2015_c2670_Early" [cells:105]
+I 50880 25-08-05 00:15:46 celllib.cpp:66] added max celllib "tau2015_c2670_Late" [cells:105]
+I 50880 25-08-05 00:15:46 verilog.cpp:21] added verilog module "c2670" [gates:344]
+I 50880 25-08-05 00:15:46 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 50880 25-08-05 00:15:46 spef.cpp:27] added 501 spef nets
+I 63168 25-08-05 00:15:46 sdc.cpp:21] added 1572 sdc commands
+I 63168 25-08-05 00:15:46 timer.cpp:484] enable cppr analysis
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 2 spef nets
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 6 spef nets
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 10 spef nets
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 100 spef nets
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 1118 spef nets
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 5 spef nets
+I 63168 25-08-05 00:15:46 spef.cpp:27] added 373 spef nets
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c2670" end time: Aug 05 00:15 CST
+"it.shell.c2670" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/64 Testing: it.shell.c3540
+46/64 Test: it.shell.c3540
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c3540"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c3540" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 46784 25-08-05 00:15:47 spef.cpp:15] loading spef "change_4.spef"
+I 34496 25-08-05 00:15:47 spef.cpp:15] loading spef "change_5.spef"
+I 26304 25-08-05 00:15:47 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:47 spef.cpp:15] loading spef "change_2.spef"
+I 30400 25-08-05 00:15:47 celllib.cpp:34] loading celllib "c3540_Early.lib"
+I 38592 25-08-05 00:15:47 celllib.cpp:34] loading celllib "c3540_Late.lib"
+I 18112 25-08-05 00:15:47 spef.cpp:15] loading spef "change_1.spef"
+I 42688 25-08-05 00:15:47 spef.cpp:15] loading spef "change_6.spef"
+I 46784 25-08-05 00:15:47 verilog.cpp:14] loading netlist "c3540.v"
+I 22208 25-08-05 00:15:47 spef.cpp:15] loading spef "c3540.spef"
+I 26304 25-08-05 00:15:47 spef.cpp:15] loading spef "change_7.spef"
+I 18112 25-08-05 00:15:47 sdc.cpp:35] loading sdc "c3540.sdc" ...
+I 30400 25-08-05 00:15:47 unit.cpp:244] use celllib time unit 1e-12 s
+I 30400 25-08-05 00:15:47 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 30400 25-08-05 00:15:47 unit.cpp:272] use celllib current unit 0.001 A
+I 30400 25-08-05 00:15:47 unit.cpp:286] use celllib voltage unit 1 V
+I 30400 25-08-05 00:15:47 unit.cpp:314] use celllib power unit 1e-06 W
+I 30400 25-08-05 00:15:47 celllib.cpp:66] added min celllib "tau2015_c3540_Early" [cells:105]
+I 38592 25-08-05 00:15:47 celllib.cpp:66] added max celllib "tau2015_c3540_Late" [cells:105]
+I 38592 25-08-05 00:15:47 verilog.cpp:21] added verilog module "c3540" [gates:691]
+I 38592 25-08-05 00:15:47 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 38592 25-08-05 00:15:47 spef.cpp:27] added 741 spef nets
+I 18112 25-08-05 00:15:47 sdc.cpp:21] added 511 sdc commands
+I 18112 25-08-05 00:15:47 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 1598 spef nets
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:47 spef.cpp:27] added 444 spef nets
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c3540" end time: Aug 05 00:15 CST
+"it.shell.c3540" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/64 Testing: it.shell.c5315
+47/64 Test: it.shell.c5315
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c5315"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c5315" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I  1728 25-08-05 00:15:47 celllib.cpp:34] loading celllib "c5315_Early.lib"
+I 63168 25-08-05 00:15:47 spef.cpp:15] loading spef "change_5.spef"
+I  5824 25-08-05 00:15:47 spef.cpp:15] loading spef "change_4.spef"
+I  9920 25-08-05 00:15:47 spef.cpp:15] loading spef "change_7.spef"
+I 14016 25-08-05 00:15:47 spef.cpp:15] loading spef "change_6.spef"
+I 22208 25-08-05 00:15:47 celllib.cpp:34] loading celllib "c5315_Late.lib"
+I 18112 25-08-05 00:15:47 verilog.cpp:14] loading netlist "c5315.v"
+I 26304 25-08-05 00:15:47 spef.cpp:15] loading spef "c5315.spef"
+I 14016 25-08-05 00:15:47 spef.cpp:15] loading spef "change_1.spef"
+I 18112 25-08-05 00:15:47 spef.cpp:15] loading spef "change_2.spef"
+I  9920 25-08-05 00:15:47 spef.cpp:15] loading spef "change_3.spef"
+I  5824 25-08-05 00:15:47 sdc.cpp:35] loading sdc "c5315.sdc" ...
+I  1728 25-08-05 00:15:47 unit.cpp:244] use celllib time unit 1e-12 s
+I  1728 25-08-05 00:15:47 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  1728 25-08-05 00:15:47 unit.cpp:272] use celllib current unit 0.001 A
+I  1728 25-08-05 00:15:47 unit.cpp:286] use celllib voltage unit 1 V
+I  1728 25-08-05 00:15:47 unit.cpp:314] use celllib power unit 1e-06 W
+I  1728 25-08-05 00:15:47 celllib.cpp:66] added min celllib "tau2015_c5315_Early" [cells:105]
+I 22208 25-08-05 00:15:47 celllib.cpp:66] added max celllib "tau2015_c5315_Late" [cells:105]
+I 22208 25-08-05 00:15:47 verilog.cpp:21] added verilog module "c5315" [gates:918]
+I 22208 25-08-05 00:15:47 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 22208 25-08-05 00:15:47 spef.cpp:27] added 1096 spef nets
+I  5824 25-08-05 00:15:48 sdc.cpp:21] added 2040 sdc commands
+I  5824 25-08-05 00:15:48 timer.cpp:484] enable cppr analysis
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 2 spef nets
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 6 spef nets
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 10 spef nets
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 100 spef nets
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 2308 spef nets
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 5 spef nets
+I  5824 25-08-05 00:15:48 spef.cpp:27] added 452 spef nets
+<end of output>
+Test time =   0.82 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c5315" end time: Aug 05 00:15 CST
+"it.shell.c5315" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/64 Testing: it.shell.c6288
+48/64 Test: it.shell.c6288
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c6288"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c6288" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 59072 25-08-05 00:15:48 celllib.cpp:34] loading celllib "c6288_Early.lib"
+I 63168 25-08-05 00:15:48 celllib.cpp:34] loading celllib "c6288_Late.lib"
+I  1728 25-08-05 00:15:48 spef.cpp:15] loading spef "change_7.spef"
+I  5824 25-08-05 00:15:48 verilog.cpp:14] loading netlist "c6288.v"
+I  9920 25-08-05 00:15:48 spef.cpp:15] loading spef "c6288.spef"
+I 14016 25-08-05 00:15:48 spef.cpp:15] loading spef "change_4.spef"
+I 22208 25-08-05 00:15:48 spef.cpp:15] loading spef "change_1.spef"
+I 22208 25-08-05 00:15:48 spef.cpp:15] loading spef "change_2.spef"
+I 14016 25-08-05 00:15:48 spef.cpp:15] loading spef "change_3.spef"
+I  5824 25-08-05 00:15:48 spef.cpp:15] loading spef "change_5.spef"
+I 18112 25-08-05 00:15:48 sdc.cpp:35] loading sdc "c6288.sdc" ...
+I  1728 25-08-05 00:15:48 spef.cpp:15] loading spef "change_6.spef"
+I 59072 25-08-05 00:15:48 unit.cpp:244] use celllib time unit 1e-12 s
+I 59072 25-08-05 00:15:48 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 59072 25-08-05 00:15:48 unit.cpp:272] use celllib current unit 0.001 A
+I 59072 25-08-05 00:15:48 unit.cpp:286] use celllib voltage unit 1 V
+I 59072 25-08-05 00:15:48 unit.cpp:314] use celllib power unit 1e-06 W
+I 59072 25-08-05 00:15:48 celllib.cpp:66] added min celllib "tau2015_c6288_Early" [cells:105]
+I 59072 25-08-05 00:15:48 celllib.cpp:66] added max celllib "tau2015_c6288_Late" [cells:105]
+I 59072 25-08-05 00:15:48 verilog.cpp:21] added verilog module "c6288" [gates:1667]
+I 59072 25-08-05 00:15:48 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 59072 25-08-05 00:15:48 spef.cpp:27] added 1699 spef nets
+I 18112 25-08-05 00:15:48 sdc.cpp:21] added 417 sdc commands
+I 18112 25-08-05 00:15:48 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 3514 spef nets
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:48 spef.cpp:27] added 467 spef nets
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c6288" end time: Aug 05 00:15 CST
+"it.shell.c6288" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/64 Testing: it.shell.c7552
+49/64 Test: it.shell.c7552
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c7552"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c7552" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 50880 25-08-05 00:15:49 spef.cpp:15] loading spef "change_2.spef"
+I  1728 25-08-05 00:15:49 spef.cpp:15] loading spef "c7552.spef"
+I 59072 25-08-05 00:15:49 spef.cpp:15] loading spef "change_4.spef"
+I 63168 25-08-05 00:15:49 celllib.cpp:34] loading celllib "c7552_Early.lib"
+I  5824 25-08-05 00:15:49 spef.cpp:15] loading spef "change_7.spef"
+I  9920 25-08-05 00:15:49 celllib.cpp:34] loading celllib "c7552_Late.lib"
+I 14016 25-08-05 00:15:49 verilog.cpp:14] loading netlist "c7552.v"
+I 54976 25-08-05 00:15:49 spef.cpp:15] loading spef "change_3.spef"
+I 59072 25-08-05 00:15:49 spef.cpp:15] loading spef "change_1.spef"
+I 14016 25-08-05 00:15:49 spef.cpp:15] loading spef "change_5.spef"
+I 54976 25-08-05 00:15:49 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:15:49 sdc.cpp:35] loading sdc "c7552.sdc" ...
+I 63168 25-08-05 00:15:49 unit.cpp:244] use celllib time unit 1e-12 s
+I 63168 25-08-05 00:15:49 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 63168 25-08-05 00:15:49 unit.cpp:272] use celllib current unit 0.001 A
+I 63168 25-08-05 00:15:49 unit.cpp:286] use celllib voltage unit 1 V
+I 63168 25-08-05 00:15:49 unit.cpp:314] use celllib power unit 1e-06 W
+I 63168 25-08-05 00:15:49 celllib.cpp:66] added min celllib "tau2015_c7552_Early" [cells:105]
+I 63168 25-08-05 00:15:49 celllib.cpp:66] added max celllib "tau2015_c7552_Late" [cells:105]
+I 63168 25-08-05 00:15:49 verilog.cpp:21] added verilog module "c7552" [gates:1147]
+I 63168 25-08-05 00:15:49 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 63168 25-08-05 00:15:49 spef.cpp:27] added 1353 spef nets
+I 50880 25-08-05 00:15:49 sdc.cpp:21] added 2184 sdc commands
+I 50880 25-08-05 00:15:49 timer.cpp:484] enable cppr analysis
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 6 spef nets
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 100 spef nets
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 2822 spef nets
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 5 spef nets
+I 50880 25-08-05 00:15:49 spef.cpp:27] added 453 spef nets
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c7552" end time: Aug 05 00:15 CST
+"it.shell.c7552" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/64 Testing: it.shell.c7552_slack
+50/64 Test: it.shell.c7552_slack
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "c7552_slack"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.c7552_slack" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 54976 25-08-05 00:15:49 spef.cpp:15] loading spef "change_4.spef"
+I 59072 25-08-05 00:15:49 spef.cpp:15] loading spef "change_7.spef"
+I  1728 25-08-05 00:15:49 spef.cpp:15] loading spef "change_3.spef"
+I 63168 25-08-05 00:15:49 celllib.cpp:34] loading celllib "c7552_slack_Early.lib"
+I  5824 25-08-05 00:15:49 celllib.cpp:34] loading celllib "c7552_slack_Late.lib"
+I 14016 25-08-05 00:15:49 verilog.cpp:14] loading netlist "c7552_slack.v"
+I  9920 25-08-05 00:15:49 spef.cpp:15] loading spef "c7552_slack.spef"
+I  1728 25-08-05 00:15:49 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:15:49 spef.cpp:15] loading spef "change_2.spef"
+I 18112 25-08-05 00:15:49 sdc.cpp:35] loading sdc "c7552_slack.sdc" ...
+I  1728 25-08-05 00:15:49 spef.cpp:15] loading spef "change_5.spef"
+I 54976 25-08-05 00:15:49 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:49 unit.cpp:244] use celllib time unit 1e-12 s
+I 63168 25-08-05 00:15:49 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 63168 25-08-05 00:15:49 unit.cpp:272] use celllib current unit 0.001 A
+I 63168 25-08-05 00:15:49 unit.cpp:286] use celllib voltage unit 1 V
+I 63168 25-08-05 00:15:49 unit.cpp:314] use celllib power unit 1e-06 W
+I 63168 25-08-05 00:15:49 celllib.cpp:66] added min celllib "tau2015_c7552_slack_Early" [cells:105]
+I  5824 25-08-05 00:15:49 celllib.cpp:66] added max celllib "tau2015_c7552_slack_Late" [cells:105]
+I  5824 25-08-05 00:15:49 verilog.cpp:21] added verilog module "c7552_slack" [gates:1147]
+I  5824 25-08-05 00:15:49 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  5824 25-08-05 00:15:49 spef.cpp:27] added 1353 spef nets
+I 18112 25-08-05 00:15:50 sdc.cpp:21] added 2184 sdc commands
+I 18112 25-08-05 00:15:50 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 2822 spef nets
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 453 spef nets
+<end of output>
+Test time =   0.90 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.c7552_slack" end time: Aug 05 00:15 CST
+"it.shell.c7552_slack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/64 Testing: it.shell.simple
+51/64 Test: it.shell.simple
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "simple"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.simple" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 22208 25-08-05 00:15:50 celllib.cpp:34] loading celllib "simple_Late.lib"
+I 18112 25-08-05 00:15:50 celllib.cpp:34] loading celllib "simple_Early.lib"
+I 26304 25-08-05 00:15:50 verilog.cpp:14] loading netlist "simple.v"
+I 30400 25-08-05 00:15:50 spef.cpp:15] loading spef "simple.spef"
+I 34496 25-08-05 00:15:50 sdc.cpp:35] loading sdc "simple.sdc" ...
+I 18112 25-08-05 00:15:50 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:15:50 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:15:50 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:15:50 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:15:50 unit.cpp:300] use celllib resistance unit 1000 Ohm
+I 18112 25-08-05 00:15:50 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:15:50 celllib.cpp:66] added min celllib "contest" [cells:211]
+I 18112 25-08-05 00:15:50 celllib.cpp:66] added max celllib "contest" [cells:211]
+I 18112 25-08-05 00:15:50 verilog.cpp:21] added verilog module "simple" [gates:5]
+I 18112 25-08-05 00:15:50 spef.cpp:27] added 6 spef nets
+I 34496 25-08-05 00:15:50 sdc.cpp:21] added 30 sdc commands
+I 34496 25-08-05 00:15:50 timer.cpp:484] enable cppr analysis
+I 34496 25-08-05 00:15:50 spef.cpp:15] loading spef "change1.spef"
+I 34496 25-08-05 00:15:50 spef.cpp:27] added 2 spef nets
+I 34496 25-08-05 00:15:50 spef.cpp:15] loading spef "change2.spef"
+I 34496 25-08-05 00:15:50 spef.cpp:27] added 1 spef nets
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.simple" end time: Aug 05 00:15 CST
+"it.shell.simple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/64 Testing: it.shell.s27
+52/64 Test: it.shell.s27
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s27"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s27" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 50880 25-08-05 00:15:51 celllib.cpp:34] loading celllib "s27_Early.lib"
+I 54976 25-08-05 00:15:51 celllib.cpp:34] loading celllib "s27_Late.lib"
+I 59072 25-08-05 00:15:51 verilog.cpp:14] loading netlist "s27.v"
+I  1728 25-08-05 00:15:51 spef.cpp:15] loading spef "s27.spef"
+I 63168 25-08-05 00:15:51 sdc.cpp:35] loading sdc "s27.sdc" ...
+I 50880 25-08-05 00:15:51 unit.cpp:244] use celllib time unit 1e-12 s
+I 50880 25-08-05 00:15:51 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 50880 25-08-05 00:15:51 unit.cpp:272] use celllib current unit 0.001 A
+I 50880 25-08-05 00:15:51 unit.cpp:286] use celllib voltage unit 1 V
+I 50880 25-08-05 00:15:51 unit.cpp:314] use celllib power unit 1e-06 W
+I 50880 25-08-05 00:15:51 celllib.cpp:66] added min celllib "tau2015_s27_Early" [cells:105]
+I 54976 25-08-05 00:15:51 celllib.cpp:66] added max celllib "tau2015_s27_Late" [cells:105]
+I 54976 25-08-05 00:15:51 verilog.cpp:21] added verilog module "s27" [gates:28]
+I 54976 25-08-05 00:15:51 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 54976 25-08-05 00:15:51 spef.cpp:27] added 34 spef nets
+I 63168 25-08-05 00:15:51 sdc.cpp:21] added 54 sdc commands
+I 63168 25-08-05 00:15:51 timer.cpp:484] enable cppr analysis
+I  1728 25-08-05 00:15:51 spef.cpp:15] loading spef "change_1.spef"
+I  1728 25-08-05 00:15:51 spef.cpp:27] added 2 spef nets
+I 63168 25-08-05 00:15:51 spef.cpp:15] loading spef "change_2.spef"
+I 63168 25-08-05 00:15:51 spef.cpp:27] added 6 spef nets
+I  9920 25-08-05 00:15:51 spef.cpp:15] loading spef "change_3.spef"
+I  9920 25-08-05 00:15:51 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:15:51 spef.cpp:15] loading spef "change_4.spef"
+I 50880 25-08-05 00:15:51 spef.cpp:27] added 62 spef nets
+I 50880 25-08-05 00:15:51 spef.cpp:15] loading spef "change_5.spef"
+I 50880 25-08-05 00:15:51 spef.cpp:27] added 124 spef nets
+I 63168 25-08-05 00:15:52 spef.cpp:15] loading spef "change_6.spef"
+I 63168 25-08-05 00:15:52 spef.cpp:27] added 5 spef nets
+I 54976 25-08-05 00:15:52 spef.cpp:15] loading spef "change_7.spef"
+I 54976 25-08-05 00:15:52 spef.cpp:27] added 16 spef nets
+<end of output>
+Test time =   1.80 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s27" end time: Aug 05 00:15 CST
+"it.shell.s27" time elapsed: 00:00:01
+----------------------------------------------------------
+
+53/64 Testing: it.shell.s344
+53/64 Test: it.shell.s344
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s344"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s344" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 63168 25-08-05 00:15:52 spef.cpp:15] loading spef "change_3.spef"
+I 22208 25-08-05 00:15:52 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:52 celllib.cpp:34] loading celllib "s344_Early.lib"
+I  1728 25-08-05 00:15:52 celllib.cpp:34] loading celllib "s344_Late.lib"
+I  5824 25-08-05 00:15:52 verilog.cpp:14] loading netlist "s344.v"
+I 14016 25-08-05 00:15:52 spef.cpp:15] loading spef "s344.spef"
+I 59072 25-08-05 00:15:52 spef.cpp:15] loading spef "change_4.spef"
+I  5824 25-08-05 00:15:52 spef.cpp:15] loading spef "change_2.spef"
+I 22208 25-08-05 00:15:52 spef.cpp:15] loading spef "change_5.spef"
+I 63168 25-08-05 00:15:52 spef.cpp:15] loading spef "change_6.spef"
+I 59072 25-08-05 00:15:52 spef.cpp:15] loading spef "change_7.spef"
+I 18112 25-08-05 00:15:52 sdc.cpp:35] loading sdc "s344.sdc" ...
+I  9920 25-08-05 00:15:52 unit.cpp:244] use celllib time unit 1e-12 s
+I  9920 25-08-05 00:15:52 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  9920 25-08-05 00:15:52 unit.cpp:272] use celllib current unit 0.001 A
+I  9920 25-08-05 00:15:52 unit.cpp:286] use celllib voltage unit 1 V
+I  9920 25-08-05 00:15:52 unit.cpp:314] use celllib power unit 1e-06 W
+I  9920 25-08-05 00:15:52 celllib.cpp:66] added min celllib "tau2015_s344_Early" [cells:105]
+I  9920 25-08-05 00:15:52 celllib.cpp:66] added max celllib "tau2015_s344_Late" [cells:105]
+I  9920 25-08-05 00:15:52 verilog.cpp:21] added verilog module "s344" [gates:182]
+I  9920 25-08-05 00:15:52 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  9920 25-08-05 00:15:52 spef.cpp:27] added 193 spef nets
+I 18112 25-08-05 00:15:52 sdc.cpp:21] added 144 sdc commands
+I 18112 25-08-05 00:15:52 timer.cpp:484] enable cppr analysis
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 2 spef nets
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 6 spef nets
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 10 spef nets
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 100 spef nets
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 396 spef nets
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 5 spef nets
+I 18112 25-08-05 00:15:52 spef.cpp:27] added 99 spef nets
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s344" end time: Aug 05 00:15 CST
+"it.shell.s344" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/64 Testing: it.shell.s349
+54/64 Test: it.shell.s349
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s349"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s349" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 54976 25-08-05 00:15:53 spef.cpp:15] loading spef "change_3.spef"
+I 14016 25-08-05 00:15:53 spef.cpp:15] loading spef "s349.spef"
+I 59072 25-08-05 00:15:53 spef.cpp:15] loading spef "change_4.spef"
+I 63168 25-08-05 00:15:53 spef.cpp:15] loading spef "change_7.spef"
+I  1728 25-08-05 00:15:53 celllib.cpp:34] loading celllib "s349_Early.lib"
+I  5824 25-08-05 00:15:53 celllib.cpp:34] loading celllib "s349_Late.lib"
+I  9920 25-08-05 00:15:53 verilog.cpp:14] loading netlist "s349.v"
+I 50880 25-08-05 00:15:53 spef.cpp:15] loading spef "change_2.spef"
+I 59072 25-08-05 00:15:53 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:15:53 spef.cpp:15] loading spef "change_5.spef"
+I 63168 25-08-05 00:15:53 spef.cpp:15] loading spef "change_6.spef"
+I  9920 25-08-05 00:15:53 sdc.cpp:35] loading sdc "s349.sdc" ...
+I  1728 25-08-05 00:15:53 unit.cpp:244] use celllib time unit 1e-12 s
+I  1728 25-08-05 00:15:53 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  1728 25-08-05 00:15:53 unit.cpp:272] use celllib current unit 0.001 A
+I  1728 25-08-05 00:15:53 unit.cpp:286] use celllib voltage unit 1 V
+I  1728 25-08-05 00:15:53 unit.cpp:314] use celllib power unit 1e-06 W
+I  1728 25-08-05 00:15:53 celllib.cpp:66] added min celllib "tau2015_s349_Early" [cells:105]
+I  5824 25-08-05 00:15:53 celllib.cpp:66] added max celllib "tau2015_s349_Late" [cells:105]
+I  5824 25-08-05 00:15:53 verilog.cpp:21] added verilog module "s349" [gates:194]
+I  5824 25-08-05 00:15:53 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  5824 25-08-05 00:15:53 spef.cpp:27] added 205 spef nets
+I  9920 25-08-05 00:15:53 sdc.cpp:21] added 144 sdc commands
+I  9920 25-08-05 00:15:53 timer.cpp:484] enable cppr analysis
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 2 spef nets
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 6 spef nets
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 10 spef nets
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 100 spef nets
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 420 spef nets
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 4 spef nets
+I  9920 25-08-05 00:15:53 spef.cpp:27] added 99 spef nets
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s349" end time: Aug 05 00:15 CST
+"it.shell.s349" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/64 Testing: it.shell.s386
+55/64 Test: it.shell.s386
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s386"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s386" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 26304 25-08-05 00:15:53 spef.cpp:15] loading spef "change_4.spef"
+I 30400 25-08-05 00:15:53 spef.cpp:15] loading spef "change_7.spef"
+I 34496 25-08-05 00:15:53 celllib.cpp:34] loading celllib "s386_Early.lib"
+I 38592 25-08-05 00:15:53 celllib.cpp:34] loading celllib "s386_Late.lib"
+I 46784 25-08-05 00:15:53 spef.cpp:15] loading spef "s386.spef"
+I 42688 25-08-05 00:15:53 verilog.cpp:14] loading netlist "s386.v"
+I 54976 25-08-05 00:15:53 spef.cpp:15] loading spef "change_1.spef"
+I 42688 25-08-05 00:15:53 spef.cpp:15] loading spef "change_2.spef"
+I 26304 25-08-05 00:15:53 spef.cpp:15] loading spef "change_3.spef"
+I 54976 25-08-05 00:15:53 spef.cpp:15] loading spef "change_5.spef"
+I 30400 25-08-05 00:15:53 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:15:53 sdc.cpp:35] loading sdc "s386.sdc" ...
+I 34496 25-08-05 00:15:53 unit.cpp:244] use celllib time unit 1e-12 s
+I 34496 25-08-05 00:15:53 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 34496 25-08-05 00:15:53 unit.cpp:272] use celllib current unit 0.001 A
+I 34496 25-08-05 00:15:53 unit.cpp:286] use celllib voltage unit 1 V
+I 34496 25-08-05 00:15:53 unit.cpp:314] use celllib power unit 1e-06 W
+I 34496 25-08-05 00:15:53 celllib.cpp:66] added min celllib "tau2015_s386_Early" [cells:105]
+I 34496 25-08-05 00:15:53 celllib.cpp:66] added max celllib "tau2015_s386_Late" [cells:105]
+I 34496 25-08-05 00:15:53 verilog.cpp:21] added verilog module "s386" [gates:177]
+I 34496 25-08-05 00:15:53 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 34496 25-08-05 00:15:53 spef.cpp:27] added 186 spef nets
+I 50880 25-08-05 00:15:53 sdc.cpp:21] added 108 sdc commands
+I 50880 25-08-05 00:15:53 timer.cpp:484] enable cppr analysis
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 6 spef nets
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 100 spef nets
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 446 spef nets
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 4 spef nets
+I 50880 25-08-05 00:15:53 spef.cpp:27] added 113 spef nets
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s386" end time: Aug 05 00:15 CST
+"it.shell.s386" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/64 Testing: it.shell.s400
+56/64 Test: it.shell.s400
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s400"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s400" start time: Aug 05 00:15 CST
+Output:
+----------------------------------------------------------
+I 54976 25-08-05 00:15:53 celllib.cpp:34] loading celllib "s400_Early.lib"
+I 59072 25-08-05 00:15:53 celllib.cpp:34] loading celllib "s400_Late.lib"
+I 63168 25-08-05 00:15:53 verilog.cpp:14] loading netlist "s400.v"
+I  1728 25-08-05 00:15:53 spef.cpp:15] loading spef "s400.spef"
+I  5824 25-08-05 00:15:53 sdc.cpp:35] loading sdc "s400.sdc" ...
+I 54976 25-08-05 00:15:53 unit.cpp:244] use celllib time unit 1e-12 s
+I 54976 25-08-05 00:15:53 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 54976 25-08-05 00:15:53 unit.cpp:272] use celllib current unit 0.001 A
+I 54976 25-08-05 00:15:53 unit.cpp:286] use celllib voltage unit 1 V
+I 54976 25-08-05 00:15:53 unit.cpp:314] use celllib power unit 1e-06 W
+I 54976 25-08-05 00:15:53 celllib.cpp:66] added min celllib "tau2015_s400_Early" [cells:105]
+I 54976 25-08-05 00:15:53 celllib.cpp:66] added max celllib "tau2015_s400_Late" [cells:105]
+I 54976 25-08-05 00:15:53 verilog.cpp:21] added verilog module "s400" [gates:221]
+I 54976 25-08-05 00:15:53 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 54976 25-08-05 00:15:53 spef.cpp:27] added 226 spef nets
+I  5824 25-08-05 00:15:53 sdc.cpp:21] added 71 sdc commands
+I  5824 25-08-05 00:15:53 timer.cpp:484] enable cppr analysis
+I  9920 25-08-05 00:15:54 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:15:54 spef.cpp:27] added 2 spef nets
+I  5824 25-08-05 00:15:55 spef.cpp:15] loading spef "change_2.spef"
+I  5824 25-08-05 00:15:55 spef.cpp:27] added 6 spef nets
+I 14016 25-08-05 00:15:56 spef.cpp:15] loading spef "change_3.spef"
+I 14016 25-08-05 00:15:56 spef.cpp:27] added 10 spef nets
+I  1728 25-08-05 00:15:57 spef.cpp:15] loading spef "change_4.spef"
+I  1728 25-08-05 00:15:57 spef.cpp:27] added 100 spef nets
+I 59072 25-08-05 00:15:58 spef.cpp:15] loading spef "change_5.spef"
+I 59072 25-08-05 00:15:58 spef.cpp:27] added 426 spef nets
+I  9920 25-08-05 00:15:59 spef.cpp:15] loading spef "change_6.spef"
+I  9920 25-08-05 00:15:59 spef.cpp:27] added 5 spef nets
+I 54976 25-08-05 00:16:01 spef.cpp:15] loading spef "change_7.spef"
+I 54976 25-08-05 00:16:01 spef.cpp:27] added 105 spef nets
+<end of output>
+Test time =   8.66 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s400" end time: Aug 05 00:16 CST
+"it.shell.s400" time elapsed: 00:00:08
+----------------------------------------------------------
+
+57/64 Testing: it.shell.s510
+57/64 Test: it.shell.s510
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s510"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s510" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I 34496 25-08-05 00:16:02 celllib.cpp:34] loading celllib "s510_Early.lib"
+I 38592 25-08-05 00:16:02 spef.cpp:15] loading spef "change_4.spef"
+I 42688 25-08-05 00:16:02 celllib.cpp:34] loading celllib "s510_Late.lib"
+I 54976 25-08-05 00:16:02 verilog.cpp:14] loading netlist "s510.v"
+I 46784 25-08-05 00:16:02 spef.cpp:15] loading spef "change_5.spef"
+I 50880 25-08-05 00:16:02 spef.cpp:15] loading spef "change_6.spef"
+I 59072 25-08-05 00:16:02 spef.cpp:15] loading spef "change_7.spef"
+I 63168 25-08-05 00:16:02 spef.cpp:15] loading spef "s510.spef"
+I 38592 25-08-05 00:16:02 spef.cpp:15] loading spef "change_1.spef"
+I 50880 25-08-05 00:16:02 spef.cpp:15] loading spef "change_2.spef"
+I 59072 25-08-05 00:16:02 spef.cpp:15] loading spef "change_3.spef"
+I 54976 25-08-05 00:16:02 sdc.cpp:35] loading sdc "s510.sdc" ...
+I 34496 25-08-05 00:16:02 unit.cpp:244] use celllib time unit 1e-12 s
+I 34496 25-08-05 00:16:02 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 34496 25-08-05 00:16:02 unit.cpp:272] use celllib current unit 0.001 A
+I 34496 25-08-05 00:16:02 unit.cpp:286] use celllib voltage unit 1 V
+I 34496 25-08-05 00:16:02 unit.cpp:314] use celllib power unit 1e-06 W
+I 34496 25-08-05 00:16:02 celllib.cpp:66] added min celllib "tau2015_s510_Early" [cells:105]
+I 34496 25-08-05 00:16:02 celllib.cpp:66] added max celllib "tau2015_s510_Late" [cells:105]
+I 34496 25-08-05 00:16:02 verilog.cpp:21] added verilog module "s510" [gates:291]
+I 34496 25-08-05 00:16:02 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 34496 25-08-05 00:16:02 spef.cpp:27] added 312 spef nets
+I 54976 25-08-05 00:16:02 sdc.cpp:21] added 204 sdc commands
+I 54976 25-08-05 00:16:02 timer.cpp:484] enable cppr analysis
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 2 spef nets
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 6 spef nets
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 10 spef nets
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 100 spef nets
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 698 spef nets
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 5 spef nets
+I 54976 25-08-05 00:16:02 spef.cpp:27] added 195 spef nets
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s510" end time: Aug 05 00:16 CST
+"it.shell.s510" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/64 Testing: it.shell.s526
+58/64 Test: it.shell.s526
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s526"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s526" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I 30400 25-08-05 00:16:02 spef.cpp:15] loading spef "change_2.spef"
+I 34496 25-08-05 00:16:02 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:16:02 celllib.cpp:34] loading celllib "s526_Early.lib"
+I 42688 25-08-05 00:16:02 spef.cpp:15] loading spef "change_3.spef"
+I 46784 25-08-05 00:16:02 celllib.cpp:34] loading celllib "s526_Late.lib"
+I 50880 25-08-05 00:16:02 verilog.cpp:14] loading netlist "s526.v"
+I 59072 25-08-05 00:16:02 spef.cpp:15] loading spef "s526.spef"
+I 54976 25-08-05 00:16:02 spef.cpp:15] loading spef "change_6.spef"
+I 30400 25-08-05 00:16:02 spef.cpp:15] loading spef "change_1.spef"
+I 42688 25-08-05 00:16:02 spef.cpp:15] loading spef "change_5.spef"
+I 34496 25-08-05 00:16:02 spef.cpp:15] loading spef "change_7.spef"
+I 50880 25-08-05 00:16:02 sdc.cpp:35] loading sdc "s526.sdc" ...
+I 38592 25-08-05 00:16:02 unit.cpp:244] use celllib time unit 1e-12 s
+I 38592 25-08-05 00:16:02 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 38592 25-08-05 00:16:02 unit.cpp:272] use celllib current unit 0.001 A
+I 38592 25-08-05 00:16:02 unit.cpp:286] use celllib voltage unit 1 V
+I 38592 25-08-05 00:16:02 unit.cpp:314] use celllib power unit 1e-06 W
+I 38592 25-08-05 00:16:02 celllib.cpp:66] added min celllib "tau2015_s526_Early" [cells:105]
+I 38592 25-08-05 00:16:02 celllib.cpp:66] added max celllib "tau2015_s526_Late" [cells:105]
+I 38592 25-08-05 00:16:02 verilog.cpp:21] added verilog module "s526" [gates:304]
+I 38592 25-08-05 00:16:02 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 38592 25-08-05 00:16:02 spef.cpp:27] added 309 spef nets
+I 50880 25-08-05 00:16:02 sdc.cpp:21] added 71 sdc commands
+I 50880 25-08-05 00:16:02 timer.cpp:484] enable cppr analysis
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 6 spef nets
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 100 spef nets
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 592 spef nets
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 5 spef nets
+I 50880 25-08-05 00:16:02 spef.cpp:27] added 154 spef nets
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s526" end time: Aug 05 00:16 CST
+"it.shell.s526" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/64 Testing: it.shell.s1196
+59/64 Test: it.shell.s1196
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s1196"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s1196" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I  9920 25-08-05 00:16:03 spef.cpp:15] loading spef "change_4.spef"
+I 18112 25-08-05 00:16:03 celllib.cpp:34] loading celllib "s1196_Early.lib"
+I 14016 25-08-05 00:16:03 spef.cpp:15] loading spef "change_5.spef"
+I 22208 25-08-05 00:16:03 spef.cpp:15] loading spef "change_6.spef"
+I 26304 25-08-05 00:16:03 celllib.cpp:34] loading celllib "s1196_Late.lib"
+I 30400 25-08-05 00:16:03 verilog.cpp:14] loading netlist "s1196.v"
+I 34496 25-08-05 00:16:03 spef.cpp:15] loading spef "change_7.spef"
+I 38592 25-08-05 00:16:03 spef.cpp:15] loading spef "s1196.spef"
+I 22208 25-08-05 00:16:03 spef.cpp:15] loading spef "change_1.spef"
+I  9920 25-08-05 00:16:03 spef.cpp:15] loading spef "change_2.spef"
+I 34496 25-08-05 00:16:03 spef.cpp:15] loading spef "change_3.spef"
+I 30400 25-08-05 00:16:03 sdc.cpp:35] loading sdc "s1196.sdc" ...
+I 18112 25-08-05 00:16:03 unit.cpp:244] use celllib time unit 1e-12 s
+I 18112 25-08-05 00:16:03 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 18112 25-08-05 00:16:03 unit.cpp:272] use celllib current unit 0.001 A
+I 18112 25-08-05 00:16:03 unit.cpp:286] use celllib voltage unit 1 V
+I 18112 25-08-05 00:16:03 unit.cpp:314] use celllib power unit 1e-06 W
+I 18112 25-08-05 00:16:03 celllib.cpp:66] added min celllib "tau2015_s1196_Early" [cells:105]
+I 18112 25-08-05 00:16:03 celllib.cpp:66] added max celllib "tau2015_s1196_Late" [cells:105]
+I 18112 25-08-05 00:16:03 verilog.cpp:21] added verilog module "s1196" [gates:641]
+I 18112 25-08-05 00:16:03 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 18112 25-08-05 00:16:03 spef.cpp:27] added 657 spef nets
+I 30400 25-08-05 00:16:03 sdc.cpp:21] added 199 sdc commands
+I 30400 25-08-05 00:16:03 timer.cpp:484] enable cppr analysis
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 2 spef nets
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 6 spef nets
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 10 spef nets
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 100 spef nets
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 1316 spef nets
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 5 spef nets
+I 30400 25-08-05 00:16:03 spef.cpp:27] added 348 spef nets
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s1196" end time: Aug 05 00:16 CST
+"it.shell.s1196" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/64 Testing: it.shell.s1494
+60/64 Test: it.shell.s1494
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "s1494"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.s1494" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I 26304 25-08-05 00:16:03 spef.cpp:15] loading spef "change_4.spef"
+I 38592 25-08-05 00:16:03 verilog.cpp:14] loading netlist "s1494.v"
+I 34496 25-08-05 00:16:03 celllib.cpp:34] loading celllib "s1494_Early.lib"
+I 30400 25-08-05 00:16:03 celllib.cpp:34] loading celllib "s1494_Late.lib"
+I 42688 25-08-05 00:16:03 spef.cpp:15] loading spef "s1494.spef"
+I 50880 25-08-05 00:16:03 spef.cpp:15] loading spef "change_1.spef"
+I 54976 25-08-05 00:16:03 spef.cpp:15] loading spef "change_2.spef"
+I 26304 25-08-05 00:16:03 spef.cpp:15] loading spef "change_3.spef"
+I 54976 25-08-05 00:16:03 spef.cpp:15] loading spef "change_5.spef"
+I 38592 25-08-05 00:16:03 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:16:03 spef.cpp:15] loading spef "change_7.spef"
+I 46784 25-08-05 00:16:03 sdc.cpp:35] loading sdc "s1494.sdc" ...
+I 34496 25-08-05 00:16:03 unit.cpp:244] use celllib time unit 1e-12 s
+I 34496 25-08-05 00:16:03 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 34496 25-08-05 00:16:03 unit.cpp:272] use celllib current unit 0.001 A
+I 34496 25-08-05 00:16:03 unit.cpp:286] use celllib voltage unit 1 V
+I 34496 25-08-05 00:16:03 unit.cpp:314] use celllib power unit 1e-06 W
+I 34496 25-08-05 00:16:03 celllib.cpp:66] added min celllib "tau2015_s1494_Early" [cells:105]
+I 34496 25-08-05 00:16:03 celllib.cpp:66] added max celllib "tau2015_s1494_Late" [cells:105]
+I 34496 25-08-05 00:16:03 verilog.cpp:21] added verilog module "s1494" [gates:804]
+I 34496 25-08-05 00:16:03 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 34496 25-08-05 00:16:03 spef.cpp:27] added 814 spef nets
+I 46784 25-08-05 00:16:03 sdc.cpp:21] added 176 sdc commands
+I 46784 25-08-05 00:16:03 timer.cpp:484] enable cppr analysis
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 2 spef nets
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 6 spef nets
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 10 spef nets
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 100 spef nets
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 1702 spef nets
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 5 spef nets
+I 46784 25-08-05 00:16:03 spef.cpp:27] added 387 spef nets
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.s1494" end time: Aug 05 00:16 CST
+"it.shell.s1494" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/64 Testing: it.shell.ac97_ctrl
+61/64 Test: it.shell.ac97_ctrl
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "ac97_ctrl"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.ac97_ctrl" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I 50880 25-08-05 00:16:04 spef.cpp:15] loading spef "change_2.spef"
+I 54976 25-08-05 00:16:04 celllib.cpp:34] loading celllib "ac97_ctrl_Early.lib"
+I 59072 25-08-05 00:16:04 spef.cpp:15] loading spef "change_4.spef"
+I 63168 25-08-05 00:16:04 celllib.cpp:34] loading celllib "ac97_ctrl_Late.lib"
+I  1728 25-08-05 00:16:04 verilog.cpp:14] loading netlist "ac97_ctrl.v"
+I  9920 25-08-05 00:16:04 spef.cpp:15] loading spef "change_3.spef"
+I  5824 25-08-05 00:16:04 spef.cpp:15] loading spef "change_7.spef"
+I 14016 25-08-05 00:16:04 spef.cpp:15] loading spef "ac97_ctrl.spef"
+I  9920 25-08-05 00:16:04 spef.cpp:15] loading spef "change_1.spef"
+I 59072 25-08-05 00:16:04 spef.cpp:15] loading spef "change_5.spef"
+I  9920 25-08-05 00:16:04 spef.cpp:15] loading spef "change_6.spef"
+I 50880 25-08-05 00:16:04 sdc.cpp:35] loading sdc "ac97_ctrl.sdc" ...
+I 54976 25-08-05 00:16:04 unit.cpp:244] use celllib time unit 1e-12 s
+I 54976 25-08-05 00:16:04 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 54976 25-08-05 00:16:04 unit.cpp:272] use celllib current unit 0.001 A
+I 54976 25-08-05 00:16:04 unit.cpp:286] use celllib voltage unit 1 V
+I 54976 25-08-05 00:16:04 unit.cpp:314] use celllib power unit 1e-06 W
+I 54976 25-08-05 00:16:04 celllib.cpp:66] added min celllib "tau2015_ac97_ctrl_Early" [cells:105]
+I 54976 25-08-05 00:16:04 celllib.cpp:66] added max celllib "tau2015_ac97_ctrl_Late" [cells:105]
+I  1728 25-08-05 00:16:04 verilog.cpp:21] added verilog module "ac97_ctrl" [gates:14341]
+I  1728 25-08-05 00:16:04 unit.cpp:350] use spef resistance unit 1000 Ohm
+I  1728 25-08-05 00:16:04 spef.cpp:27] added 14407 spef nets
+I 50880 25-08-05 00:16:04 sdc.cpp:21] added 913 sdc commands
+I 50880 25-08-05 00:16:04 timer.cpp:484] enable cppr analysis
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 2 spef nets
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 6 spef nets
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 10 spef nets
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 100 spef nets
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 10000 spef nets
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 5 spef nets
+I 50880 25-08-05 00:16:04 spef.cpp:27] added 485 spef nets
+<end of output>
+Test time =   1.27 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.ac97_ctrl" end time: Aug 05 00:16 CST
+"it.shell.ac97_ctrl" time elapsed: 00:00:01
+----------------------------------------------------------
+
+62/64 Testing: it.shell.aes_core
+62/64 Test: it.shell.aes_core
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "aes_core"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.aes_core" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I 34496 25-08-05 00:16:05 spef.cpp:15] loading spef "change_1.spef"
+I 26304 25-08-05 00:16:05 celllib.cpp:34] loading celllib "aes_core_Early.lib"
+I 38592 25-08-05 00:16:05 spef.cpp:15] loading spef "change_4.spef"
+I 42688 25-08-05 00:16:05 spef.cpp:15] loading spef "change_2.spef"
+I 46784 25-08-05 00:16:05 spef.cpp:15] loading spef "change_3.spef"
+I 30400 25-08-05 00:16:05 celllib.cpp:34] loading celllib "aes_core_Late.lib"
+I 50880 25-08-05 00:16:05 verilog.cpp:14] loading netlist "aes_core.v"
+I 54976 25-08-05 00:16:05 spef.cpp:15] loading spef "aes_core.spef"
+I 42688 25-08-05 00:16:05 spef.cpp:15] loading spef "change_5.spef"
+I 46784 25-08-05 00:16:05 spef.cpp:15] loading spef "change_6.spef"
+I 34496 25-08-05 00:16:05 sdc.cpp:35] loading sdc "aes_core.sdc" ...
+I 46784 25-08-05 00:16:05 spef.cpp:15] loading spef "change_7.spef"
+I 26304 25-08-05 00:16:05 unit.cpp:244] use celllib time unit 1e-12 s
+I 26304 25-08-05 00:16:05 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I 26304 25-08-05 00:16:05 unit.cpp:272] use celllib current unit 0.001 A
+I 26304 25-08-05 00:16:05 unit.cpp:286] use celllib voltage unit 1 V
+I 26304 25-08-05 00:16:05 unit.cpp:314] use celllib power unit 1e-06 W
+I 26304 25-08-05 00:16:05 celllib.cpp:66] added min celllib "tau2015_aes_core_Early" [cells:105]
+I 30400 25-08-05 00:16:05 celllib.cpp:66] added max celllib "tau2015_aes_core_Late" [cells:105]
+I 50880 25-08-05 00:16:05 verilog.cpp:21] added verilog module "aes_core" [gates:22938]
+I 54976 25-08-05 00:16:05 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 54976 25-08-05 00:16:05 spef.cpp:27] added 23199 spef nets
+I 34496 25-08-05 00:16:05 sdc.cpp:21] added 2726 sdc commands
+I 34496 25-08-05 00:16:05 timer.cpp:484] enable cppr analysis
+I 34496 25-08-05 00:16:05 spef.cpp:27] added 2 spef nets
+I 34496 25-08-05 00:16:05 spef.cpp:27] added 6 spef nets
+I 34496 25-08-05 00:16:05 spef.cpp:27] added 10 spef nets
+I 34496 25-08-05 00:16:05 spef.cpp:27] added 100 spef nets
+I 34496 25-08-05 00:16:06 spef.cpp:27] added 10000 spef nets
+I 34496 25-08-05 00:16:06 spef.cpp:27] added 5 spef nets
+I 34496 25-08-05 00:16:06 spef.cpp:27] added 482 spef nets
+<end of output>
+Test time =   3.43 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.aes_core" end time: Aug 05 00:16 CST
+"it.shell.aes_core" time elapsed: 00:00:03
+----------------------------------------------------------
+
+63/64 Testing: it.shell.des_perf
+63/64 Test: it.shell.des_perf
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "des_perf"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.des_perf" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I  5824 25-08-05 00:16:08 celllib.cpp:34] loading celllib "des_perf_Late.lib"
+I  9920 25-08-05 00:16:08 spef.cpp:15] loading spef "change_7.spef"
+I 14016 25-08-05 00:16:08 verilog.cpp:14] loading netlist "des_perf.v"
+I 63168 25-08-05 00:16:08 spef.cpp:15] loading spef "change_4.spef"
+I 18112 25-08-05 00:16:08 spef.cpp:15] loading spef "des_perf.spef"
+I  1728 25-08-05 00:16:08 celllib.cpp:34] loading celllib "des_perf_Early.lib"
+I 22208 25-08-05 00:16:08 spef.cpp:15] loading spef "change_1.spef"
+I 22208 25-08-05 00:16:08 spef.cpp:15] loading spef "change_2.spef"
+I 63168 25-08-05 00:16:08 spef.cpp:15] loading spef "change_3.spef"
+I 26304 25-08-05 00:16:08 sdc.cpp:35] loading sdc "des_perf.sdc" ...
+I 22208 25-08-05 00:16:08 spef.cpp:15] loading spef "change_5.spef"
+I 63168 25-08-05 00:16:08 spef.cpp:15] loading spef "change_6.spef"
+I  1728 25-08-05 00:16:08 unit.cpp:244] use celllib time unit 1e-12 s
+I  1728 25-08-05 00:16:08 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  1728 25-08-05 00:16:08 unit.cpp:272] use celllib current unit 0.001 A
+I  1728 25-08-05 00:16:08 unit.cpp:286] use celllib voltage unit 1 V
+I  1728 25-08-05 00:16:08 unit.cpp:314] use celllib power unit 1e-06 W
+I  1728 25-08-05 00:16:08 celllib.cpp:66] added min celllib "tau2015_des_perf_Early" [cells:105]
+I  1728 25-08-05 00:16:08 celllib.cpp:66] added max celllib "tau2015_des_perf_Late" [cells:105]
+I 14016 25-08-05 00:16:10 verilog.cpp:21] added verilog module "des_perf" [gates:105371]
+I 14016 25-08-05 00:16:10 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 106532 spef nets
+I 14016 25-08-05 00:16:10 sdc.cpp:21] added 2201 sdc commands
+I 14016 25-08-05 00:16:10 timer.cpp:484] enable cppr analysis
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 2 spef nets
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 6 spef nets
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 10 spef nets
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 100 spef nets
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 10000 spef nets
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 5 spef nets
+I 14016 25-08-05 00:16:10 spef.cpp:27] added 492 spef nets
+<end of output>
+Test time =   6.56 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.des_perf" end time: Aug 05 00:16 CST
+"it.shell.des_perf" time elapsed: 00:00:06
+----------------------------------------------------------
+
+64/64 Testing: it.shell.vga_lcd
+64/64 Test: it.shell.vga_lcd
+Command: "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/inttest/shell.py" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/bin/ot-shell" "/mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/benchmark" "vga_lcd"
+Directory: /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/build
+"it.shell.vga_lcd" start time: Aug 05 00:16 CST
+Output:
+----------------------------------------------------------
+I 18112 25-08-05 00:16:15 spef.cpp:15] loading spef "change_4.spef"
+I  9920 25-08-05 00:16:15 celllib.cpp:34] loading celllib "vga_lcd_Early.lib"
+I 22208 25-08-05 00:16:15 verilog.cpp:14] loading netlist "vga_lcd.v"
+I 14016 25-08-05 00:16:15 celllib.cpp:34] loading celllib "vga_lcd_Late.lib"
+I 30400 25-08-05 00:16:15 spef.cpp:15] loading spef "change_3.spef"
+I 26304 25-08-05 00:16:15 spef.cpp:15] loading spef "vga_lcd.spef"
+I 34496 25-08-05 00:16:15 spef.cpp:15] loading spef "change_7.spef"
+I 30400 25-08-05 00:16:15 spef.cpp:15] loading spef "change_1.spef"
+I 18112 25-08-05 00:16:15 spef.cpp:15] loading spef "change_2.spef"
+I 38592 25-08-05 00:16:15 sdc.cpp:35] loading sdc "vga_lcd.sdc" ...
+I 30400 25-08-05 00:16:15 spef.cpp:15] loading spef "change_5.spef"
+I 18112 25-08-05 00:16:15 spef.cpp:15] loading spef "change_6.spef"
+I  9920 25-08-05 00:16:15 unit.cpp:244] use celllib time unit 1e-12 s
+I  9920 25-08-05 00:16:15 unit.cpp:258] use celllib capacitance unit 1e-15 F
+I  9920 25-08-05 00:16:15 unit.cpp:272] use celllib current unit 0.001 A
+I  9920 25-08-05 00:16:15 unit.cpp:286] use celllib voltage unit 1 V
+I  9920 25-08-05 00:16:15 unit.cpp:314] use celllib power unit 1e-06 W
+I  9920 25-08-05 00:16:15 celllib.cpp:66] added min celllib "tau2015_vga_lcd_Early" [cells:105]
+I 14016 25-08-05 00:16:15 celllib.cpp:66] added max celllib "tau2015_vga_lcd_Late" [cells:105]
+I 22208 25-08-05 00:16:17 verilog.cpp:21] added verilog module "vga_lcd" [gates:139529]
+I 22208 25-08-05 00:16:17 unit.cpp:350] use spef resistance unit 1000 Ohm
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 139632 spef nets
+I 22208 25-08-05 00:16:17 sdc.cpp:21] added 1258 sdc commands
+I 22208 25-08-05 00:16:17 timer.cpp:484] enable cppr analysis
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 2 spef nets
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 6 spef nets
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 10 spef nets
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 100 spef nets
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 10000 spef nets
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 5 spef nets
+I 22208 25-08-05 00:16:17 spef.cpp:27] added 494 spef nets
+<end of output>
+Test time =  10.29 sec
+----------------------------------------------------------
+Test Passed.
+"it.shell.vga_lcd" end time: Aug 05 00:16 CST
+"it.shell.vga_lcd" time elapsed: 00:00:10
+----------------------------------------------------------
+
+End testing: Aug 05 00:16 CST

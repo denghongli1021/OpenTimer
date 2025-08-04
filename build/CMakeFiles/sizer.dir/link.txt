@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O2 CMakeFiles/sizer.dir/example/sizer/sizer.cpp.o -o /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/example/sizer/sizer  /mnt/c/Users/user/Desktop/code/ICCAD-2025/OpenTimer/OpenTimer/lib/libOpenTimer.a 
